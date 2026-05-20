@@ -1,0 +1,4725 @@
+[
+  {
+    "prompt": "ledsen",
+    "prompt_mode": "mood",
+    "explicit_genre_terms": [],
+    "primary_dataset_genres": [
+      "indie",
+      "alternative",
+      "acoustic",
+      "songwriter"
+    ],
+    "supporting_dataset_genres": [
+      "ambient",
+      "piano",
+      "r-n-b",
+      "trip-hop",
+      "alt-rock",
+      "indie-pop"
+    ],
+    "intent_terms": [
+      "sad",
+      "melancholic",
+      "heartbreak",
+      "introspective",
+      "ledsen"
+    ],
+    "detected_intensity": "neutral",
+    "intensity_matches": [],
+    "intensity_strength": 1.0,
+    "base_mood_tendencies": {
+      "valence": 0.2,
+      "energy": 0.29,
+      "acousticness": 0.47
+    },
+    "adjusted_audio_tendencies": {
+      "valence": 0.2,
+      "energy": 0.29,
+      "acousticness": 0.47
+    },
+    "mood_tendencies": {
+      "valence": 0.2,
+      "energy": 0.29,
+      "acousticness": 0.47
+    },
+    "candidate_pool_before_ranking": 6328,
+    "candidate_pool_after_scoring_filter": 5597,
+    "candidate_window_before_randomization": 90,
+    "weighted_randomness_used": true,
+    "custom_tracks_in_state": 2,
+    "legacy_like_custom_items": 1,
+    "top_10_returned_songs": [
+      {
+        "title": "It Really Sucked, Actually",
+        "artist": "Not Half Bad",
+        "genre": "acoustic",
+        "valence": 0.541,
+        "energy": 0.637,
+        "danceability": 0.673,
+        "acousticness": 0.295,
+        "final_score": 7.2033,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.1097,
+            "intent_bonus": 0.0,
+            "numeric_mood": 2.7354,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 1.2671,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 0.9547,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              2.7354
+            ],
+            [
+              "small_artist",
+              1.2671
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "nlp_similarity",
+              1.1097
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.9547
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche salsa pocket. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "世界中の誰よりきっと",
+        "artist": "Mone Kamishiraishi",
+        "genre": "acoustic",
+        "valence": 0.556,
+        "energy": 0.636,
+        "danceability": 0.578,
+        "acousticness": 0.0874,
+        "final_score": 7.0374,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.4724,
+            "intent_bonus": 0.0,
+            "numeric_mood": 2.4517,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.165,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 1.0793,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              2.4517
+            ],
+            [
+              "nlp_similarity",
+              1.4724
+            ],
+            [
+              "small_artist",
+              1.165
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.0793
+            ],
+            [
+              "recent_cluster",
+              0.72
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran dance spark. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Paasa",
+        "artist": "Kurei",
+        "genre": "acoustic",
+        "valence": 0.234,
+        "energy": 0.238,
+        "danceability": 0.737,
+        "acousticness": 0.891,
+        "final_score": 7.0743,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.4724,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.191,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.2786,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.9407,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.191
+            ],
+            [
+              "nlp_similarity",
+              1.4724
+            ],
+            [
+              "small_artist",
+              1.2786
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.9407
+            ],
+            [
+              "recent_cluster",
+              0.72
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche tango pocket. Mood: soft introspection. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Careful",
+        "artist": "Michelle Featherstone",
+        "genre": "acoustic",
+        "valence": 0.484,
+        "energy": 0.835,
+        "danceability": 0.505,
+        "acousticness": 0.46,
+        "final_score": 7.3811,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.4724,
+            "intent_bonus": 0.0,
+            "numeric_mood": 2.7661,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.1761,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.0,
+            "mainstream": 1.0657,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              2.7661
+            ],
+            [
+              "nlp_similarity",
+              1.4724
+            ],
+            [
+              "small_artist",
+              1.1761
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.0657
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran forro spark. Mood: club pulse. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "I'll Be Home for Christmas",
+        "artist": "Mindy Smith",
+        "genre": "acoustic",
+        "valence": 0.186,
+        "energy": 0.427,
+        "danceability": 0.57,
+        "acousticness": 0.368,
+        "final_score": 7.8804,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 0.5459,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.5162,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.5465,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.614,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.5162
+            ],
+            [
+              "small_artist",
+              1.5465
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "validated_audio_bonus",
+              0.55
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "recent_cluster",
+              0.72
+            ],
+            [
+              "mainstream",
+              0.614
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den kommer fran dance spark. Mood: late-night haze. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Waves of Panic",
+        "artist": "Corporate Hearts",
+        "genre": "acoustic",
+        "valence": 0.761,
+        "energy": 0.552,
+        "danceability": 0.301,
+        "acousticness": 0.161,
+        "final_score": 7.0434,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.221,
+            "intent_bonus": 0.0,
+            "numeric_mood": 2.391,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.2786,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.0,
+            "mainstream": 0.9407,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              2.391
+            ],
+            [
+              "small_artist",
+              1.2786
+            ],
+            [
+              "nlp_similarity",
+              1.221
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.9407
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran forro spark. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Pussy Cat",
+        "artist": "The Bridge City Sinners",
+        "genre": "acoustic",
+        "valence": 0.644,
+        "energy": 0.702,
+        "danceability": 0.586,
+        "acousticness": 0.59,
+        "final_score": 7.1427,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.4724,
+            "intent_bonus": 0.0,
+            "numeric_mood": 2.5907,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.124,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.0,
+            "mainstream": 1.1292,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              2.5907
+            ],
+            [
+              "nlp_similarity",
+              1.4724
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "small_artist",
+              1.124
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.1292
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran forro spark. Mood: high-energy glow. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Drunks",
+        "artist": "Johnnyswim",
+        "genre": "acoustic",
+        "valence": 0.205,
+        "energy": 0.461,
+        "danceability": 0.399,
+        "acousticness": 0.157,
+        "final_score": 7.552,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.4724,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.2141,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 1.204,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.54,
+            "mainstream": 1.0317,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.2141
+            ],
+            [
+              "nlp_similarity",
+              1.4724
+            ],
+            [
+              "small_artist",
+              1.204
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.0317
+            ],
+            [
+              "recent_cluster",
+              0.54
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche death metal pocket. Mood: late-night haze. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Heaven Sent",
+        "artist": "Front Porch Step",
+        "genre": "acoustic",
+        "valence": 0.354,
+        "energy": 0.312,
+        "danceability": 0.615,
+        "acousticness": 0.727,
+        "final_score": 7.1309,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.4724,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.2858,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.2062,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 1.029,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.2858
+            ],
+            [
+              "nlp_similarity",
+              1.4724
+            ],
+            [
+              "small_artist",
+              1.2062
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.029
+            ],
+            [
+              "recent_cluster",
+              0.72
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche tango pocket. Mood: club pulse. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "音タイム",
+        "artist": "Hanare Gumi",
+        "genre": "acoustic",
+        "valence": 0.374,
+        "energy": 0.716,
+        "danceability": 0.373,
+        "acousticness": 0.082,
+        "final_score": 6.9276,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.4724,
+            "intent_bonus": 0.0,
+            "numeric_mood": 2.5754,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.1107,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.0,
+            "mainstream": 1.1455,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              2.5754
+            ],
+            [
+              "nlp_similarity",
+              1.4724
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "small_artist",
+              1.1107
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.1455
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran underground hardstyle pulse. Mood: soft introspection. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      }
+    ],
+    "baseline_comparison": {
+      "matched_categories": [
+        "sad_melancholic"
+      ],
+      "expected_tendencies": [
+        "Low valence, low to medium energy, often somewhat more acoustic."
+      ],
+      "feature_summary": {
+        "valence": {
+          "mean": 0.4339,
+          "expected_range": [
+            0.0,
+            0.38
+          ],
+          "in_range_ratio": 0.5
+        },
+        "energy": {
+          "mean": 0.5516,
+          "expected_range": [
+            0.12,
+            0.58
+          ],
+          "in_range_ratio": 0.5
+        },
+        "acousticness": {
+          "mean": 0.3818,
+          "expected_range": [
+            0.22,
+            1.0
+          ],
+          "in_range_ratio": 0.6
+        }
+      },
+      "mismatch_notes": []
+    },
+    "diagnostics": {
+      "likely_causes": [
+        "polluted_custom_state",
+        "genre_filtering_overpowers_mood"
+      ],
+      "evidence": [
+        "Det finns 1 legacy-liknande customposter i state som kan paverka feed/context.",
+        "Prompten ar mood/context-styrd men far samtidigt tydliga genreprioriteringar som kan ta over ranking."
+      ],
+      "saved_artists_in_state": 3
+    }
+  },
+  {
+    "prompt": "jätte ledsen",
+    "prompt_mode": "mood",
+    "explicit_genre_terms": [],
+    "primary_dataset_genres": [
+      "indie",
+      "alternative",
+      "acoustic",
+      "songwriter"
+    ],
+    "supporting_dataset_genres": [
+      "ambient",
+      "piano",
+      "r-n-b",
+      "trip-hop",
+      "alt-rock",
+      "indie-pop"
+    ],
+    "intent_terms": [
+      "sad",
+      "melancholic",
+      "heartbreak",
+      "introspective",
+      "jatte",
+      "ledsen"
+    ],
+    "detected_intensity": "strong",
+    "intensity_matches": [
+      "jatte"
+    ],
+    "intensity_strength": 1.34,
+    "base_mood_tendencies": {
+      "valence": 0.2,
+      "energy": 0.29,
+      "acousticness": 0.47
+    },
+    "adjusted_audio_tendencies": {
+      "valence": 0.098,
+      "energy": 0.2186,
+      "acousticness": 0.5686
+    },
+    "mood_tendencies": {
+      "valence": 0.098,
+      "energy": 0.2186,
+      "acousticness": 0.5686
+    },
+    "candidate_pool_before_ranking": 6328,
+    "candidate_pool_after_scoring_filter": 5597,
+    "candidate_window_before_randomization": 82,
+    "weighted_randomness_used": true,
+    "custom_tracks_in_state": 2,
+    "legacy_like_custom_items": 1,
+    "top_10_returned_songs": [
+      {
+        "title": "Over",
+        "artist": "Johnnyswim",
+        "genre": "acoustic",
+        "valence": 0.147,
+        "energy": 0.51,
+        "danceability": 0.371,
+        "acousticness": 0.296,
+        "final_score": 8.615,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.4724,
+            "intent_bonus": 0.0,
+            "numeric_mood": 4.0942,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 1.204,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.54,
+            "mainstream": 1.0317,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              4.0942
+            ],
+            [
+              "nlp_similarity",
+              1.4724
+            ],
+            [
+              "small_artist",
+              1.204
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.0317
+            ],
+            [
+              "recent_cluster",
+              0.54
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche death metal pocket. Mood: late-night haze. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "I'll Be Home for Christmas",
+        "artist": "Mindy Smith",
+        "genre": "acoustic",
+        "valence": 0.186,
+        "energy": 0.427,
+        "danceability": 0.57,
+        "acousticness": 0.368,
+        "final_score": 9.0973,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 0.7472,
+            "intent_bonus": 0.0,
+            "numeric_mood": 4.2931,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.5465,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.614,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              4.2931
+            ],
+            [
+              "small_artist",
+              1.5465
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "nlp_similarity",
+              0.7472
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "recent_cluster",
+              0.72
+            ],
+            [
+              "mainstream",
+              0.614
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran dance spark. Mood: late-night haze. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Cried Like A Baby",
+        "artist": "Rory Block",
+        "genre": "acoustic",
+        "valence": 0.745,
+        "energy": 0.488,
+        "danceability": 0.704,
+        "acousticness": 0.56,
+        "final_score": 8.6981,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.4724,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.559,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.2702,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.0,
+            "mainstream": 0.951,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.559
+            ],
+            [
+              "nlp_similarity",
+              1.4724
+            ],
+            [
+              "small_artist",
+              1.2702
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.951
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran forro spark. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Sweet but Psycho - Acoustic",
+        "artist": "Parker Jenkins",
+        "genre": "acoustic",
+        "valence": 0.371,
+        "energy": 0.263,
+        "danceability": 0.664,
+        "acousticness": 0.814,
+        "final_score": 8.0732,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.4724,
+            "intent_bonus": 0.0,
+            "numeric_mood": 4.1803,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.0849,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.54,
+            "mainstream": 1.177,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              4.1803
+            ],
+            [
+              "nlp_similarity",
+              1.4724
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "small_artist",
+              1.0849
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.177
+            ],
+            [
+              "recent_cluster",
+              0.54
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran acoustic after-hours. Mood: soft introspection. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Days I Will Remember",
+        "artist": "Tyrone Wells",
+        "genre": "acoustic",
+        "valence": 0.552,
+        "energy": 0.457,
+        "danceability": 0.804,
+        "acousticness": 0.6,
+        "final_score": 8.0425,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.3309,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.9041,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 1.034,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 1.239,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.9041
+            ],
+            [
+              "nlp_similarity",
+              1.3309
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "small_artist",
+              1.034
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.239
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche salsa pocket. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Paasa",
+        "artist": "Kurei",
+        "genre": "acoustic",
+        "valence": 0.234,
+        "energy": 0.238,
+        "danceability": 0.737,
+        "acousticness": 0.891,
+        "final_score": 8.5058,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.4724,
+            "intent_bonus": 0.0,
+            "numeric_mood": 4.3261,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.2786,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.9407,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              4.3261
+            ],
+            [
+              "nlp_similarity",
+              1.4724
+            ],
+            [
+              "small_artist",
+              1.2786
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.9407
+            ],
+            [
+              "recent_cluster",
+              0.72
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche tango pocket. Mood: soft introspection. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Ikaw Lamang",
+        "artist": "Ice Seguerra",
+        "genre": "acoustic",
+        "valence": 0.148,
+        "energy": 0.441,
+        "danceability": 0.614,
+        "acousticness": 0.76,
+        "final_score": 8.5677,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.4724,
+            "intent_bonus": 0.0,
+            "numeric_mood": 4.3501,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.2899,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.927,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              4.3501
+            ],
+            [
+              "nlp_similarity",
+              1.4724
+            ],
+            [
+              "small_artist",
+              1.2899
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.927
+            ],
+            [
+              "recent_cluster",
+              0.72
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche tango pocket. Mood: late-night haze. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "ハンキーパンキー",
+        "artist": "Hanare Gumi",
+        "genre": "acoustic",
+        "valence": 0.256,
+        "energy": 0.211,
+        "danceability": 0.465,
+        "acousticness": 0.812,
+        "final_score": 8.5204,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.4724,
+            "intent_bonus": 0.0,
+            "numeric_mood": 4.4441,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.1107,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 1.1455,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              4.4441
+            ],
+            [
+              "nlp_similarity",
+              1.4724
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "small_artist",
+              1.1107
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.1455
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche opera pocket. Mood: soft introspection. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Golden Hour - Acoustic Piano",
+        "artist": "Ben Woodward",
+        "genre": "acoustic",
+        "valence": 0.118,
+        "energy": 0.289,
+        "danceability": 0.276,
+        "acousticness": 0.968,
+        "final_score": 8.1845,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.6378,
+            "intent_bonus": 0.0,
+            "numeric_mood": 4.3055,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 0.9924,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 1.2898,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              4.3055
+            ],
+            [
+              "nlp_similarity",
+              1.6378
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "small_artist",
+              0.9924
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.2898
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche opera pocket. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Boycott Me!",
+        "artist": "Mischief Brew",
+        "genre": "acoustic",
+        "valence": 0.69,
+        "energy": 0.509,
+        "danceability": 0.684,
+        "acousticness": 0.571,
+        "final_score": 8.1024,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.1433,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.628,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 1.1896,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 1.0492,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.628
+            ],
+            [
+              "small_artist",
+              1.1896
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "nlp_similarity",
+              1.1433
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.0492
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche salsa pocket. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      }
+    ],
+    "baseline_comparison": {
+      "matched_categories": [
+        "sad_melancholic"
+      ],
+      "expected_tendencies": [
+        "Low valence, low to medium energy, often somewhat more acoustic."
+      ],
+      "feature_summary": {
+        "valence": {
+          "mean": 0.3447,
+          "expected_range": [
+            0.0,
+            0.38
+          ],
+          "in_range_ratio": 0.7
+        },
+        "energy": {
+          "mean": 0.3833,
+          "expected_range": [
+            0.12,
+            0.58
+          ],
+          "in_range_ratio": 1.0
+        },
+        "acousticness": {
+          "mean": 0.664,
+          "expected_range": [
+            0.22,
+            1.0
+          ],
+          "in_range_ratio": 1.0
+        }
+      },
+      "mismatch_notes": []
+    },
+    "diagnostics": {
+      "likely_causes": [
+        "polluted_custom_state",
+        "genre_filtering_overpowers_mood"
+      ],
+      "evidence": [
+        "Det finns 1 legacy-liknande customposter i state som kan paverka feed/context.",
+        "Prompten ar mood/context-styrd men far samtidigt tydliga genreprioriteringar som kan ta over ranking."
+      ],
+      "saved_artists_in_state": 3
+    }
+  },
+  {
+    "prompt": "glad",
+    "prompt_mode": "mood",
+    "explicit_genre_terms": [],
+    "primary_dataset_genres": [
+      "pop",
+      "indie-pop",
+      "power-pop",
+      "disco"
+    ],
+    "supporting_dataset_genres": [
+      "funk",
+      "house",
+      "swedish",
+      "rock",
+      "alt-rock",
+      "alternative",
+      "indie"
+    ],
+    "intent_terms": [
+      "happy",
+      "uplifting",
+      "feelgood",
+      "summer",
+      "glad"
+    ],
+    "detected_intensity": "neutral",
+    "intensity_matches": [],
+    "intensity_strength": 1.0,
+    "base_mood_tendencies": {
+      "valence": 0.74,
+      "energy": 0.62,
+      "danceability": 0.62
+    },
+    "adjusted_audio_tendencies": {
+      "valence": 0.74,
+      "energy": 0.62,
+      "danceability": 0.62
+    },
+    "mood_tendencies": {
+      "valence": 0.74,
+      "energy": 0.62,
+      "danceability": 0.62
+    },
+    "candidate_pool_before_ranking": 6461,
+    "candidate_pool_after_scoring_filter": 5836,
+    "candidate_window_before_randomization": 90,
+    "weighted_randomness_used": true,
+    "custom_tracks_in_state": 2,
+    "legacy_like_custom_items": 1,
+    "top_10_returned_songs": [
+      {
+        "title": "Fruity",
+        "artist": "chloe moriondo",
+        "genre": "indie-pop",
+        "valence": 0.627,
+        "energy": 0.648,
+        "danceability": 0.672,
+        "acousticness": 0.0049,
+        "final_score": 9.031,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5053,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.593,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.5043,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.6655,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.593
+            ],
+            [
+              "nlp_similarity",
+              1.5053
+            ],
+            [
+              "small_artist",
+              1.5043
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "recent_cluster",
+              0.72
+            ],
+            [
+              "mainstream",
+              0.6655
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran dance spark. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Outer Space",
+        "artist": "The Muffs",
+        "genre": "power-pop",
+        "valence": 0.667,
+        "energy": 0.945,
+        "danceability": 0.483,
+        "acousticness": 0.0012,
+        "final_score": 7.8639,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 0.6439,
+            "intent_bonus": 0.22,
+            "numeric_mood": 3.1552,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 1.27,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 0.9512,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.1552
+            ],
+            [
+              "small_artist",
+              1.27
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "nlp_similarity",
+              0.6439
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.9512
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den kommer fran party spark. Mood: high-energy glow. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Very First Lie",
+        "artist": "Material Issue",
+        "genre": "power-pop",
+        "valence": 0.491,
+        "energy": 0.573,
+        "danceability": 0.454,
+        "acousticness": 0.0651,
+        "final_score": 8.5039,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5053,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.2486,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 1.3073,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.54,
+            "mainstream": 0.9057,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.2486
+            ],
+            [
+              "nlp_similarity",
+              1.5053
+            ],
+            [
+              "small_artist",
+              1.3073
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.9057
+            ],
+            [
+              "recent_cluster",
+              0.54
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche death metal pocket. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "WTF",
+        "artist": "Still Woozy",
+        "genre": "indie-pop",
+        "valence": 0.71,
+        "energy": 0.496,
+        "danceability": 0.715,
+        "acousticness": 0.648,
+        "final_score": 8.0586,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.0807,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.5213,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 1.3649,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 0.8355,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.5213
+            ],
+            [
+              "small_artist",
+              1.3649
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "nlp_similarity",
+              1.0807
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.8355
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche salsa pocket. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Deep Sea Diver",
+        "artist": "Briston Maroney",
+        "genre": "indie-pop",
+        "valence": 0.297,
+        "energy": 0.54,
+        "danceability": 0.604,
+        "acousticness": 0.174,
+        "final_score": 8.4497,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5053,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.1501,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.5324,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.6312,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.1501
+            ],
+            [
+              "small_artist",
+              1.5324
+            ],
+            [
+              "nlp_similarity",
+              1.5053
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "recent_cluster",
+              0.72
+            ],
+            [
+              "mainstream",
+              0.6312
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran dance spark. Mood: club pulse. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Math",
+        "artist": "Sara Kays",
+        "genre": "indie-pop",
+        "valence": 0.442,
+        "energy": 0.61,
+        "danceability": 0.63,
+        "acousticness": 0.38,
+        "final_score": 7.8631,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5053,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.433,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.1396,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 1.1103,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.433
+            ],
+            [
+              "nlp_similarity",
+              1.5053
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "small_artist",
+              1.1396
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.1103
+            ],
+            [
+              "recent_cluster",
+              0.72
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran dance spark. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Love's Theme",
+        "artist": "The Love Unlimited Orchestra",
+        "genre": "disco",
+        "valence": 0.747,
+        "energy": 0.613,
+        "danceability": 0.587,
+        "acousticness": 0.0012,
+        "final_score": 7.7988,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 0.0,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.7798,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.5746,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.0,
+            "mainstream": 0.5797,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.7798
+            ],
+            [
+              "small_artist",
+              1.5746
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "validated_audio_bonus",
+              0.55
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.5797
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den kommer fran ambient minimal techno drift. Mood: atmospheric drift. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Nothing Can Change You",
+        "artist": "Tommy Keene",
+        "genre": "power-pop",
+        "valence": 0.695,
+        "energy": 0.645,
+        "danceability": 0.542,
+        "acousticness": 0.0186,
+        "final_score": 8.5521,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 0.6377,
+            "intent_bonus": 0.22,
+            "numeric_mood": 3.6506,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 1.3327,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 0.8747,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.6506
+            ],
+            [
+              "small_artist",
+              1.3327
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "nlp_similarity",
+              0.6377
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.8747
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den kommer fran party spark. Mood: high-energy glow. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "3 small words",
+        "artist": "MisterWives",
+        "genre": "indie-pop",
+        "valence": 0.88,
+        "energy": 0.593,
+        "danceability": 0.646,
+        "acousticness": 0.029,
+        "final_score": 7.5548,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 0.0,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.593,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 1.5605,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 0.597,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.593
+            ],
+            [
+              "small_artist",
+              1.5605
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "validated_audio_bonus",
+              0.55
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.597
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den kommer fran party spark. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Something About You",
+        "artist": "Elderbrook",
+        "genre": "house",
+        "valence": 0.657,
+        "energy": 0.605,
+        "danceability": 0.767,
+        "acousticness": 0.559,
+        "final_score": 7.5629,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 0.0,
+            "supporting_genre": 0.45,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.1845,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.5264,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.55,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.3778,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.8197,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.5264
+            ],
+            [
+              "small_artist",
+              1.3778
+            ],
+            [
+              "nlp_similarity",
+              1.1845
+            ],
+            [
+              "validated_audio_bonus",
+              0.55
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.8197
+            ],
+            [
+              "recent_cluster",
+              0.72
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran dance spark. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      }
+    ],
+    "baseline_comparison": {
+      "matched_categories": [
+        "happy_uplifting"
+      ],
+      "expected_tendencies": [
+        "Higher valence and at least medium energy."
+      ],
+      "feature_summary": {
+        "valence": {
+          "mean": 0.6213,
+          "expected_range": [
+            0.56,
+            1.0
+          ],
+          "in_range_ratio": 0.7
+        },
+        "energy": {
+          "mean": 0.6268,
+          "expected_range": [
+            0.34,
+            1.0
+          ],
+          "in_range_ratio": 1.0
+        }
+      },
+      "mismatch_notes": []
+    },
+    "diagnostics": {
+      "likely_causes": [
+        "polluted_custom_state",
+        "genre_filtering_overpowers_mood"
+      ],
+      "evidence": [
+        "Det finns 1 legacy-liknande customposter i state som kan paverka feed/context.",
+        "Prompten ar mood/context-styrd men far samtidigt tydliga genreprioriteringar som kan ta over ranking."
+      ],
+      "saved_artists_in_state": 3
+    }
+  },
+  {
+    "prompt": "super glad",
+    "prompt_mode": "mood",
+    "explicit_genre_terms": [],
+    "primary_dataset_genres": [
+      "pop",
+      "indie-pop",
+      "power-pop",
+      "disco"
+    ],
+    "supporting_dataset_genres": [
+      "funk",
+      "house",
+      "swedish",
+      "rock",
+      "alt-rock",
+      "alternative",
+      "indie"
+    ],
+    "intent_terms": [
+      "happy",
+      "uplifting",
+      "feelgood",
+      "summer",
+      "super",
+      "glad"
+    ],
+    "detected_intensity": "elevated",
+    "intensity_matches": [
+      "super"
+    ],
+    "intensity_strength": 1.28,
+    "base_mood_tendencies": {
+      "valence": 0.74,
+      "energy": 0.62,
+      "danceability": 0.62
+    },
+    "adjusted_audio_tendencies": {
+      "valence": 0.8072,
+      "energy": 0.6536,
+      "danceability": 0.6536
+    },
+    "mood_tendencies": {
+      "valence": 0.8072,
+      "energy": 0.6536,
+      "danceability": 0.6536
+    },
+    "candidate_pool_before_ranking": 6461,
+    "candidate_pool_after_scoring_filter": 5836,
+    "candidate_window_before_randomization": 82,
+    "weighted_randomness_used": true,
+    "custom_tracks_in_state": 2,
+    "legacy_like_custom_items": 1,
+    "top_10_returned_songs": [
+      {
+        "title": "Many Roads To Follow",
+        "artist": "Paul Collins",
+        "genre": "power-pop",
+        "valence": 0.609,
+        "energy": 0.647,
+        "danceability": 0.551,
+        "acousticness": 0.56,
+        "final_score": 8.9778,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.0207,
+            "intent_bonus": 0.0,
+            "numeric_mood": 4.4116,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.3468,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.8575,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              4.4116
+            ],
+            [
+              "small_artist",
+              1.3468
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "nlp_similarity",
+              1.0207
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.8575
+            ],
+            [
+              "recent_cluster",
+              0.72
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche tango pocket. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Honeypie",
+        "artist": "JAWNY",
+        "genre": "indie-pop",
+        "valence": 0.925,
+        "energy": 0.683,
+        "danceability": 0.743,
+        "acousticness": 0.0712,
+        "final_score": 9.0246,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.1072,
+            "intent_bonus": 0.0,
+            "numeric_mood": 4.5276,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 1.2618,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 0.9612,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              4.5276
+            ],
+            [
+              "small_artist",
+              1.2618
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "nlp_similarity",
+              1.1072
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.9612
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran party spark. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "WTF",
+        "artist": "Still Woozy",
+        "genre": "indie-pop",
+        "valence": 0.71,
+        "energy": 0.496,
+        "danceability": 0.715,
+        "acousticness": 0.648,
+        "final_score": 9.0742,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.0807,
+            "intent_bonus": 0.0,
+            "numeric_mood": 4.3971,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 1.3649,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 0.8355,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              4.3971
+            ],
+            [
+              "small_artist",
+              1.3649
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "nlp_similarity",
+              1.0807
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.8355
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche salsa pocket. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Nostalgic",
+        "artist": "A R I Z O N A",
+        "genre": "indie-pop",
+        "valence": 0.328,
+        "energy": 0.539,
+        "danceability": 0.691,
+        "acousticness": 0.246,
+        "final_score": 9.475,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5053,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.881,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.5746,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.5797,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.881
+            ],
+            [
+              "small_artist",
+              1.5746
+            ],
+            [
+              "nlp_similarity",
+              1.5053
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "recent_cluster",
+              0.72
+            ],
+            [
+              "mainstream",
+              0.5797
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran dance spark. Mood: late-night haze. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Fruity",
+        "artist": "chloe moriondo",
+        "genre": "indie-pop",
+        "valence": 0.627,
+        "energy": 0.648,
+        "danceability": 0.672,
+        "acousticness": 0.0049,
+        "final_score": 10.1389,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5053,
+            "intent_bonus": 0.0,
+            "numeric_mood": 4.5806,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.5043,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.6655,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              4.5806
+            ],
+            [
+              "nlp_similarity",
+              1.5053
+            ],
+            [
+              "small_artist",
+              1.5043
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "recent_cluster",
+              0.72
+            ],
+            [
+              "mainstream",
+              0.6655
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran dance spark. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Renee Remains The Same",
+        "artist": "Material Issue",
+        "genre": "power-pop",
+        "valence": 0.624,
+        "energy": 0.913,
+        "danceability": 0.515,
+        "acousticness": 0.0008,
+        "final_score": 9.542,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5053,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.963,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 1.3073,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 0.9057,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.963
+            ],
+            [
+              "nlp_similarity",
+              1.5053
+            ],
+            [
+              "small_artist",
+              1.3073
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.9057
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran party spark. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Nothing Can Change You",
+        "artist": "Tommy Keene",
+        "genre": "power-pop",
+        "valence": 0.695,
+        "energy": 0.645,
+        "danceability": 0.542,
+        "acousticness": 0.0186,
+        "final_score": 9.6087,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 0.6377,
+            "intent_bonus": 0.22,
+            "numeric_mood": 4.5344,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 1.3327,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 0.8747,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              4.5344
+            ],
+            [
+              "small_artist",
+              1.3327
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "validated_audio_bonus",
+              0.704
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.8747
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den kommer fran party spark. Mood: high-energy glow. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Spooky, Scary Skeletons - Undead Tombstone Remix",
+        "artist": "Andrew Gold",
+        "genre": "power-pop",
+        "valence": 0.574,
+        "energy": 0.788,
+        "danceability": 0.772,
+        "acousticness": 0.0027,
+        "final_score": 9.0949,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5053,
+            "intent_bonus": 0.0,
+            "numeric_mood": 4.1189,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.0711,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 1.1938,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              4.1189
+            ],
+            [
+              "nlp_similarity",
+              1.5053
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "small_artist",
+              1.0711
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.1938
+            ],
+            [
+              "recent_cluster",
+              0.72
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran dance spark. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Deep Sea Diver",
+        "artist": "Briston Maroney",
+        "genre": "indie-pop",
+        "valence": 0.297,
+        "energy": 0.54,
+        "danceability": 0.604,
+        "acousticness": 0.174,
+        "final_score": 9.3815,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5053,
+            "intent_bonus": 0.0,
+            "numeric_mood": 3.8119,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 1.5324,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.6312,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              3.8119
+            ],
+            [
+              "small_artist",
+              1.5324
+            ],
+            [
+              "nlp_similarity",
+              1.5053
+            ],
+            [
+              "primary_genre",
+              1.15
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "recent_cluster",
+              0.72
+            ],
+            [
+              "mainstream",
+              0.6312
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran dance spark. Mood: club pulse. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Love For Tender",
+        "artist": "Elvis Costello & The Attractions",
+        "genre": "power-pop",
+        "valence": 0.686,
+        "energy": 0.77,
+        "danceability": 0.633,
+        "acousticness": 0.0395,
+        "final_score": 8.7655,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 1.15,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 0.7536,
+            "intent_bonus": 0.22,
+            "numeric_mood": 4.4922,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.704,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 0.9438,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 1.349,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "numeric_mood",
+              4.4922
+            ],
+            [
+              "primary_genre",
+              1.15
+            ],
+            [
+              "small_artist",
+              0.9438
+            ],
+            [
+              "nlp_similarity",
+              0.7536
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.349
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran party spark. Mood: club pulse. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      }
+    ],
+    "baseline_comparison": {
+      "matched_categories": [
+        "happy_uplifting"
+      ],
+      "expected_tendencies": [
+        "Higher valence and at least medium energy."
+      ],
+      "feature_summary": {
+        "valence": {
+          "mean": 0.6075,
+          "expected_range": [
+            0.56,
+            1.0
+          ],
+          "in_range_ratio": 0.8
+        },
+        "energy": {
+          "mean": 0.6669,
+          "expected_range": [
+            0.34,
+            1.0
+          ],
+          "in_range_ratio": 1.0
+        }
+      },
+      "mismatch_notes": []
+    },
+    "diagnostics": {
+      "likely_causes": [
+        "polluted_custom_state",
+        "genre_filtering_overpowers_mood"
+      ],
+      "evidence": [
+        "Det finns 1 legacy-liknande customposter i state som kan paverka feed/context.",
+        "Prompten ar mood/context-styrd men far samtidigt tydliga genreprioriteringar som kan ta over ranking."
+      ],
+      "saved_artists_in_state": 3
+    }
+  },
+  {
+    "prompt": "dansa",
+    "prompt_mode": "mixed",
+    "explicit_genre_terms": [],
+    "primary_dataset_genres": [
+      "party",
+      "house",
+      "deep-house",
+      "electronic",
+      "disco"
+    ],
+    "supporting_dataset_genres": [
+      "progressive-house",
+      "trance",
+      "pop",
+      "ambient",
+      "club",
+      "power-pop",
+      "techno"
+    ],
+    "intent_terms": [
+      "dance",
+      "party",
+      "club",
+      "upbeat",
+      "dansa"
+    ],
+    "detected_intensity": "neutral",
+    "intensity_matches": [],
+    "intensity_strength": 1.0,
+    "base_mood_tendencies": {
+      "danceability": 0.78,
+      "energy": 0.8,
+      "valence": 0.64
+    },
+    "adjusted_audio_tendencies": {
+      "danceability": 0.78,
+      "energy": 0.8,
+      "valence": 0.64
+    },
+    "mood_tendencies": {
+      "danceability": 0.78,
+      "energy": 0.8,
+      "valence": 0.64
+    },
+    "candidate_pool_before_ranking": 8939,
+    "candidate_pool_after_scoring_filter": 8282,
+    "candidate_window_before_randomization": 80,
+    "weighted_randomness_used": true,
+    "custom_tracks_in_state": 2,
+    "legacy_like_custom_items": 1,
+    "top_10_returned_songs": [
+      {
+        "title": "Tiroler Bua (Wellerman - Hüttenstyle)",
+        "artist": "Matty Valentino",
+        "genre": "party",
+        "valence": 0.8,
+        "energy": 0.727,
+        "danceability": 0.783,
+        "acousticness": 0.16,
+        "final_score": 10.3385,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.7336,
+            "intent_bonus": 0.22,
+            "numeric_mood": 2.0454,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 2.4757,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 0.913,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.4757
+            ],
+            [
+              "numeric_mood",
+              2.0454
+            ],
+            [
+              "nlp_similarity",
+              1.7336
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.913
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran party spark. Mood: high-energy glow. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Wash The Window",
+        "artist": "Todd Terry",
+        "genre": "deep-house",
+        "valence": 0.59,
+        "energy": 0.924,
+        "danceability": 0.826,
+        "acousticness": 0.0013,
+        "final_score": 11.3503,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.8615,
+            "intent_bonus": 0.22,
+            "numeric_mood": 2.0572,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 2.9277,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.0,
+            "mainstream": 0.6232,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "small_artist",
+              2.9277
+            ],
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "numeric_mood",
+              2.0572
+            ],
+            [
+              "nlp_similarity",
+              1.8615
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.6232
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran ambient minimal techno drift. Mood: atmospheric drift. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Wahre Liebe",
+        "artist": "Chaos Team",
+        "genre": "party",
+        "valence": 0.408,
+        "energy": 0.92,
+        "danceability": 0.732,
+        "acousticness": 0.0668,
+        "final_score": 10.7817,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.7336,
+            "intent_bonus": 0.44,
+            "numeric_mood": 1.924,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 2.6543,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.7985,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.6543
+            ],
+            [
+              "numeric_mood",
+              1.924
+            ],
+            [
+              "nlp_similarity",
+              1.7336
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.7985
+            ],
+            [
+              "recent_cluster",
+              0.72
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran dance spark. Mood: high-energy glow. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Auswärts sind wir asozial",
+        "artist": "Killermichel",
+        "genre": "party",
+        "valence": 0.587,
+        "energy": 0.973,
+        "danceability": 0.511,
+        "acousticness": 0.0678,
+        "final_score": 10.331,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.7336,
+            "intent_bonus": 0.22,
+            "numeric_mood": 1.8537,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 2.4944,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.0,
+            "mainstream": 0.901,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.4944
+            ],
+            [
+              "numeric_mood",
+              1.8537
+            ],
+            [
+              "nlp_similarity",
+              1.7336
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.901
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran underground hardstyle pulse. Mood: high-energy glow. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Somehow",
+        "artist": "Inpetto",
+        "genre": "deep-house",
+        "valence": 0.515,
+        "energy": 0.724,
+        "danceability": 0.628,
+        "acousticness": 0.0925,
+        "final_score": 10.4568,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.2739,
+            "intent_bonus": 0.44,
+            "numeric_mood": 1.9588,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 2.6606,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.7945,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.6606
+            ],
+            [
+              "numeric_mood",
+              1.9588
+            ],
+            [
+              "nlp_similarity",
+              1.2739
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.7945
+            ],
+            [
+              "recent_cluster",
+              0.72
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran dance spark. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Schere Stein paar Bier (Schnick Schnack Schluck)",
+        "artist": "Bierkapitän",
+        "genre": "party",
+        "valence": 0.713,
+        "energy": 0.983,
+        "danceability": 0.688,
+        "acousticness": 0.0309,
+        "final_score": 10.5988,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.7336,
+            "intent_bonus": 0.22,
+            "numeric_mood": 1.9625,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 2.6438,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 0.8053,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.6438
+            ],
+            [
+              "numeric_mood",
+              1.9625
+            ],
+            [
+              "nlp_similarity",
+              1.7336
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.8053
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran party spark. Mood: high-energy glow. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "112",
+        "artist": "Balek",
+        "genre": "party",
+        "valence": 0.706,
+        "energy": 0.801,
+        "danceability": 0.686,
+        "acousticness": 0.0054,
+        "final_score": 10.4933,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.7336,
+            "intent_bonus": 0.22,
+            "numeric_mood": 2.1009,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 2.482,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 0.909,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.482
+            ],
+            [
+              "numeric_mood",
+              2.1009
+            ],
+            [
+              "nlp_similarity",
+              1.7336
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.909
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran party spark. Mood: high-energy glow. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Geboren um zu feiern - Radio Edit",
+        "artist": "Marry",
+        "genre": "party",
+        "valence": 0.552,
+        "energy": 0.836,
+        "danceability": 0.595,
+        "acousticness": 0.129,
+        "final_score": 10.3456,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5523,
+            "intent_bonus": 0.44,
+            "numeric_mood": 1.9913,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 2.5213,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.8838,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.5213
+            ],
+            [
+              "numeric_mood",
+              1.9913
+            ],
+            [
+              "nlp_similarity",
+              1.5523
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.8838
+            ],
+            [
+              "recent_cluster",
+              0.72
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran dance spark. Mood: club pulse. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Hobelbank",
+        "artist": "Mountain Crew",
+        "genre": "party",
+        "valence": 0.958,
+        "energy": 0.873,
+        "danceability": 0.741,
+        "acousticness": 0.0159,
+        "final_score": 10.4202,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.7336,
+            "intent_bonus": 0.22,
+            "numeric_mood": 1.9018,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 2.5798,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 0.8463,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.5798
+            ],
+            [
+              "numeric_mood",
+              1.9018
+            ],
+            [
+              "nlp_similarity",
+              1.7336
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.8463
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran party spark. Mood: high-energy glow. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Wir haben Grund zum Feiern!",
+        "artist": "Buddy",
+        "genre": "party",
+        "valence": 0.515,
+        "energy": 0.971,
+        "danceability": 0.621,
+        "acousticness": 0.0095,
+        "final_score": 10.4431,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.7336,
+            "intent_bonus": 0.44,
+            "numeric_mood": 1.8833,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 2.5533,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.8633,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.5533
+            ],
+            [
+              "numeric_mood",
+              1.8833
+            ],
+            [
+              "nlp_similarity",
+              1.7336
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.8633
+            ],
+            [
+              "recent_cluster",
+              0.72
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran dance spark. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      }
+    ],
+    "baseline_comparison": {
+      "matched_categories": [
+        "dance_party"
+      ],
+      "expected_tendencies": [
+        "High danceability and high energy."
+      ],
+      "feature_summary": {
+        "danceability": {
+          "mean": 0.6811,
+          "expected_range": [
+            0.58,
+            1.0
+          ],
+          "in_range_ratio": 0.9
+        },
+        "energy": {
+          "mean": 0.8732,
+          "expected_range": [
+            0.55,
+            1.0
+          ],
+          "in_range_ratio": 1.0
+        }
+      },
+      "mismatch_notes": []
+    },
+    "diagnostics": {
+      "likely_causes": [
+        "polluted_custom_state"
+      ],
+      "evidence": [
+        "Det finns 1 legacy-liknande customposter i state som kan paverka feed/context."
+      ],
+      "saved_artists_in_state": 3
+    }
+  },
+  {
+    "prompt": "regnig kväll",
+    "prompt_mode": "mixed",
+    "explicit_genre_terms": [],
+    "primary_dataset_genres": [
+      "ambient",
+      "acoustic",
+      "indie",
+      "alternative",
+      "electronic"
+    ],
+    "supporting_dataset_genres": [
+      "trip-hop",
+      "jazz",
+      "alt-rock",
+      "club",
+      "deep-house",
+      "house",
+      "indie-pop",
+      "techno"
+    ],
+    "intent_terms": [
+      "rainy",
+      "evening",
+      "intimate",
+      "moody",
+      "late-night",
+      "night",
+      "dark",
+      "after-hours",
+      "regnig",
+      "kvall"
+    ],
+    "detected_intensity": "neutral",
+    "intensity_matches": [],
+    "intensity_strength": 1.0,
+    "base_mood_tendencies": {
+      "energy": 0.3067,
+      "acousticness": 0.5167,
+      "valence": 0.25
+    },
+    "adjusted_audio_tendencies": {
+      "energy": 0.3067,
+      "acousticness": 0.5167,
+      "valence": 0.25
+    },
+    "mood_tendencies": {
+      "energy": 0.3067,
+      "acousticness": 0.5167,
+      "valence": 0.25
+    },
+    "candidate_pool_before_ranking": 8990,
+    "candidate_pool_after_scoring_filter": 8288,
+    "candidate_window_before_randomization": 80,
+    "weighted_randomness_used": true,
+    "custom_tracks_in_state": 2,
+    "legacy_like_custom_items": 1,
+    "top_10_returned_songs": [
+      {
+        "title": "Forever Longing",
+        "artist": "U137",
+        "genre": "ambient",
+        "valence": 0.0653,
+        "energy": 0.332,
+        "danceability": 0.0952,
+        "acousticness": 0.0968,
+        "final_score": 10.4902,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5644,
+            "intent_bonus": 0.22,
+            "numeric_mood": 1.7539,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 2.9956,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.18,
+            "mainstream": 0.5797,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "small_artist",
+              2.9956
+            ],
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "numeric_mood",
+              1.7539
+            ],
+            [
+              "nlp_similarity",
+              1.5644
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.5797
+            ],
+            [
+              "recent_cluster",
+              0.18
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran sleep after-hours. Mood: atmospheric drift. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Ashley Williamson",
+        "artist": "Dine",
+        "genre": "ambient",
+        "valence": 0.305,
+        "energy": 0.577,
+        "danceability": 0.774,
+        "acousticness": 0.0735,
+        "final_score": 9.4995,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5644,
+            "intent_bonus": 0.0,
+            "numeric_mood": 1.6513,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 2.4539,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.0,
+            "mainstream": 0.927,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.4539
+            ],
+            [
+              "numeric_mood",
+              1.6513
+            ],
+            [
+              "nlp_similarity",
+              1.5644
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.927
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran ambient minimal techno drift. Mood: atmospheric drift. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "I'll Be Home for Christmas",
+        "artist": "Mindy Smith",
+        "genre": "acoustic",
+        "valence": 0.186,
+        "energy": 0.427,
+        "danceability": 0.57,
+        "acousticness": 0.368,
+        "final_score": 10.0041,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 0.7948,
+            "intent_bonus": 0.0,
+            "numeric_mood": 1.9736,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.55,
+            "cluster_neighbor": 0.0,
+            "small_artist": 2.9422,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.614,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "small_artist",
+              2.9422
+            ],
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "numeric_mood",
+              1.9736
+            ],
+            [
+              "nlp_similarity",
+              0.7948
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "recent_cluster",
+              0.72
+            ],
+            [
+              "mainstream",
+              0.614
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den kommer fran dance spark. Mood: late-night haze. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "To-Do Lists (Color Coded)",
+        "artist": "She/Her/hers",
+        "genre": "acoustic",
+        "valence": 0.549,
+        "energy": 0.835,
+        "danceability": 0.566,
+        "acousticness": 0.0167,
+        "final_score": 8.9861,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5662,
+            "intent_bonus": 0.0,
+            "numeric_mood": 1.2378,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 2.4539,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.54,
+            "mainstream": 0.927,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.4539
+            ],
+            [
+              "nlp_similarity",
+              1.5662
+            ],
+            [
+              "numeric_mood",
+              1.2378
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.927
+            ],
+            [
+              "recent_cluster",
+              0.54
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche death metal pocket. Mood: balanced. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Forbidden Colours",
+        "artist": "David Sylvian",
+        "genre": "ambient",
+        "valence": 0.165,
+        "energy": 0.28,
+        "danceability": 0.62,
+        "acousticness": 0.942,
+        "final_score": 9.8467,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5644,
+            "intent_bonus": 0.0,
+            "numeric_mood": 1.8226,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 2.9956,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.72,
+            "mainstream": 0.5797,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "small_artist",
+              2.9956
+            ],
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "numeric_mood",
+              1.8226
+            ],
+            [
+              "nlp_similarity",
+              1.5644
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "recent_cluster",
+              0.72
+            ],
+            [
+              "mainstream",
+              0.5797
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche tango pocket. Mood: soft introspection. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Oftentimes / Souki",
+        "artist": "Michiru Aoyama",
+        "genre": "ambient",
+        "valence": 0.0912,
+        "energy": 0.0882,
+        "danceability": 0.199,
+        "acousticness": 0.926,
+        "final_score": 10.0811,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5644,
+            "intent_bonus": 0.22,
+            "numeric_mood": 1.6379,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 2.9956,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.18,
+            "mainstream": 0.5797,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "small_artist",
+              2.9956
+            ],
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "numeric_mood",
+              1.6379
+            ],
+            [
+              "nlp_similarity",
+              1.5644
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.5797
+            ],
+            [
+              "recent_cluster",
+              0.18
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran sleep after-hours. Mood: soft introspection. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Naav (Chadhti Lehrein Laang Na Paye)",
+        "artist": "Mohan",
+        "genre": "ambient",
+        "valence": 0.548,
+        "energy": 0.687,
+        "danceability": 0.608,
+        "acousticness": 0.449,
+        "final_score": 9.1194,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5644,
+            "intent_bonus": 0.0,
+            "numeric_mood": 1.668,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 2.191,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 1.0955,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.191
+            ],
+            [
+              "numeric_mood",
+              1.668
+            ],
+            [
+              "nlp_similarity",
+              1.5644
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.0955
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche salsa pocket. Mood: high-energy glow. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Offering at Dawn",
+        "artist": "Eashwar Subramanian",
+        "genre": "ambient",
+        "valence": 0.126,
+        "energy": 0.294,
+        "danceability": 0.368,
+        "acousticness": 0.399,
+        "final_score": 9.695,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5644,
+            "intent_bonus": 0.0,
+            "numeric_mood": 2.0317,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 2.6056,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.54,
+            "mainstream": 0.8297,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.6056
+            ],
+            [
+              "numeric_mood",
+              2.0317
+            ],
+            [
+              "nlp_similarity",
+              1.5644
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              0.8297
+            ],
+            [
+              "recent_cluster",
+              0.54
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran underground mandopop pulse. Mood: late-night haze. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Hidden gem",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "接吻",
+        "artist": "Hanare Gumi",
+        "genre": "acoustic",
+        "valence": 0.65,
+        "energy": 0.296,
+        "danceability": 0.707,
+        "acousticness": 0.283,
+        "final_score": 9.1169,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.5662,
+            "intent_bonus": 0.0,
+            "numeric_mood": 1.7431,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.22,
+            "small_artist": 2.113,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.36,
+            "mainstream": 1.1455,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.113
+            ],
+            [
+              "numeric_mood",
+              1.7431
+            ],
+            [
+              "nlp_similarity",
+              1.5662
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.1455
+            ],
+            [
+              "recent_cluster",
+              0.36
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran niche salsa pocket. Mood: soft introspection. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      },
+      {
+        "title": "Longing",
+        "artist": "Michael Brook",
+        "genre": "ambient",
+        "valence": 0.0954,
+        "energy": 0.551,
+        "danceability": 0.48,
+        "acousticness": 0.415,
+        "final_score": 9.6211,
+        "score_breakdown": {
+          "positive": {
+            "primary_genre": 2.9,
+            "supporting_genre": 0.0,
+            "fallback_genre": 0.0,
+            "nlp_similarity": 1.6781,
+            "intent_bonus": 0.22,
+            "numeric_mood": 1.8496,
+            "estimated_mood": 0.0,
+            "validated_audio_bonus": 0.209,
+            "cluster_match": 0.0,
+            "cluster_neighbor": 0.0,
+            "small_artist": 2.3119,
+            "token_bonus": 0.0
+          },
+          "negative": {
+            "recent_artist": 0.0,
+            "recent_track": 0.0,
+            "recent_cluster": 0.0,
+            "mainstream": 1.018,
+            "popularity": 0.0
+          },
+          "strongest_positive": [
+            [
+              "primary_genre",
+              2.9
+            ],
+            [
+              "small_artist",
+              2.3119
+            ],
+            [
+              "numeric_mood",
+              1.8496
+            ],
+            [
+              "nlp_similarity",
+              1.6781
+            ]
+          ],
+          "strongest_negative": [
+            [
+              "mainstream",
+              1.018
+            ]
+          ]
+        },
+        "rank_reason": "Promptmatchad for nischad upptackt Den matchar promptens eller bibliotekets vibe via TF-IDF och cosine similarity. Den kommer fran ambient minimal techno drift. Mood: atmospheric drift. Small artist boost via spotify-popularitet, deezer-fans.",
+        "labels": [
+          "Small artist boost",
+          "Related vibe",
+          "Similar mood",
+          "Underground cluster"
+        ],
+        "audio_validated": true,
+        "mood_source": "dataset"
+      }
+    ],
+    "baseline_comparison": {
+      "matched_categories": [
+        "night_dark"
+      ],
+      "expected_tendencies": [
+        "Darker late-night vibe, usually lower valence and restrained energy."
+      ],
+      "feature_summary": {
+        "valence": {
+          "mean": 0.2781,
+          "expected_range": [
+            0.0,
+            0.48
+          ],
+          "in_range_ratio": 0.7
+        },
+        "energy": {
+          "mean": 0.4367,
+          "expected_range": [
+            0.1,
+            0.68
+          ],
+          "in_range_ratio": 0.7
+        }
+      },
+      "mismatch_notes": []
+    },
+    "diagnostics": {
+      "likely_causes": [
+        "polluted_custom_state"
+      ],
+      "evidence": [
+        "Det finns 1 legacy-liknande customposter i state som kan paverka feed/context."
+      ],
+      "saved_artists_in_state": 3
+    }
+  }
+]

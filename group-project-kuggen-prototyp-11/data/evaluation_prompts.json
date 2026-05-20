@@ -1,0 +1,184 @@
+[
+  {
+    "prompt": "indie",
+    "expected_genre_labels": ["Indie"],
+    "expected_intents": ["indie"],
+    "acceptable_dataset_genres": ["indie", "indie-pop", "alternative", "songwriter"],
+    "notes": "Pure genre prompt."
+  },
+  {
+    "prompt": "punk",
+    "expected_genre_labels": ["Rock"],
+    "expected_intents": ["punk"],
+    "acceptable_dataset_genres": ["punk", "punk-rock", "rock"],
+    "notes": "Pure genre prompt for a rock-adjacent subgenre."
+  },
+  {
+    "prompt": "hiphop",
+    "expected_genre_labels": ["Hip-Hop"],
+    "expected_intents": ["hiphop"],
+    "acceptable_dataset_genres": ["hip-hop", "trip-hop"],
+    "notes": "Pure genre prompt for hip-hop family retrieval."
+  },
+  {
+    "prompt": "metal",
+    "expected_genre_labels": ["Rock"],
+    "expected_intents": ["metal"],
+    "acceptable_dataset_genres": ["metal", "metalcore", "heavy-metal", "death-metal", "black-metal"],
+    "notes": "Pure genre prompt for heavy music."
+  },
+  {
+    "prompt": "ledsen",
+    "expected_genre_labels": [],
+    "expected_intents": ["sad", "melancholic"],
+    "acceptable_dataset_genres": ["indie", "alternative", "acoustic", "songwriter", "ambient", "piano", "r-n-b", "trip-hop"],
+    "notes": "Pure mood prompt for sadness."
+  },
+  {
+    "prompt": "gråta",
+    "expected_genre_labels": [],
+    "expected_intents": ["sad", "heartbreak"],
+    "acceptable_dataset_genres": ["indie", "alternative", "acoustic", "songwriter", "ambient", "piano", "r-n-b", "trip-hop"],
+    "notes": "Pure mood prompt for crying / heartbreak."
+  },
+  {
+    "prompt": "sorglig",
+    "expected_genre_labels": [],
+    "expected_intents": ["sad", "melancholic"],
+    "acceptable_dataset_genres": ["indie", "alternative", "acoustic", "songwriter", "ambient", "piano", "r-n-b", "trip-hop"],
+    "notes": "Pure mood prompt for sadness."
+  },
+  {
+    "prompt": "deppig",
+    "expected_genre_labels": [],
+    "expected_intents": ["sad", "melancholic"],
+    "acceptable_dataset_genres": ["indie", "alternative", "acoustic", "songwriter", "ambient", "piano", "r-n-b", "trip-hop"],
+    "notes": "Pure mood prompt for low-energy melancholy."
+  },
+  {
+    "prompt": "glad",
+    "expected_genre_labels": [],
+    "expected_intents": ["happy", "uplifting"],
+    "acceptable_dataset_genres": ["pop", "indie-pop", "power-pop", "disco", "funk", "house"],
+    "notes": "Pure mood prompt for uplifting music."
+  },
+  {
+    "prompt": "arg",
+    "expected_genre_labels": [],
+    "expected_intents": ["angry", "intense"],
+    "acceptable_dataset_genres": ["hip-hop", "punk-rock", "industrial", "metal", "metalcore", "rock"],
+    "notes": "Pure mood prompt for intense or aggressive music."
+  },
+  {
+    "prompt": "lugn",
+    "expected_genre_labels": [],
+    "expected_intents": ["calm", "focus"],
+    "acceptable_dataset_genres": ["ambient", "acoustic", "piano", "new-age", "jazz", "study"],
+    "notes": "Pure mood prompt for calm listening."
+  },
+  {
+    "prompt": "plugga",
+    "expected_genre_labels": [],
+    "expected_intents": ["focus", "study"],
+    "acceptable_dataset_genres": ["ambient", "acoustic", "piano", "new-age", "jazz", "study"],
+    "notes": "Activity/context prompt for studying."
+  },
+  {
+    "prompt": "träna",
+    "expected_genre_labels": [],
+    "expected_intents": ["workout", "training"],
+    "acceptable_dataset_genres": ["electronic", "house", "progressive-house", "rock", "punk-rock", "metal", "deep-house"],
+    "notes": "Activity/context prompt for exercise."
+  },
+  {
+    "prompt": "dansa",
+    "expected_genre_labels": [],
+    "expected_intents": ["dance", "party"],
+    "acceptable_dataset_genres": ["party", "house", "deep-house", "electronic", "disco", "pop", "trance"],
+    "notes": "Activity prompt for dancing."
+  },
+  {
+    "prompt": "fest",
+    "expected_genre_labels": [],
+    "expected_intents": ["party", "club"],
+    "acceptable_dataset_genres": ["party", "house", "deep-house", "electronic", "disco", "pop", "trance"],
+    "notes": "Context prompt for party listening."
+  },
+  {
+    "prompt": "natt",
+    "expected_genre_labels": [],
+    "expected_intents": ["night", "dark"],
+    "acceptable_dataset_genres": ["ambient", "electronic", "indie", "trip-hop", "jazz", "alternative"],
+    "notes": "Context prompt for late-night music."
+  },
+  {
+    "prompt": "sommar",
+    "expected_genre_labels": [],
+    "expected_intents": ["happy", "summer"],
+    "acceptable_dataset_genres": ["pop", "indie-pop", "power-pop", "disco", "swedish", "rock", "house"],
+    "notes": "Context prompt for summer listening."
+  },
+  {
+    "prompt": "regnig kväll",
+    "expected_genre_labels": ["Indie", "Electronic"],
+    "expected_intents": ["night", "moody"],
+    "acceptable_dataset_genres": ["ambient", "acoustic", "indie", "trip-hop", "alternative", "jazz"],
+    "notes": "Broad Swedish mood/context prompt."
+  },
+  {
+    "prompt": "calm morning music",
+    "expected_genre_labels": ["Jazz", "Classical", "Indie"],
+    "expected_intents": ["calm", "morning"],
+    "acceptable_dataset_genres": ["acoustic", "classical", "ambient", "jazz", "songwriter", "piano"],
+    "notes": "English context prompt for calm listening."
+  },
+  {
+    "prompt": "night drive",
+    "expected_genre_labels": ["Electronic", "Rock"],
+    "expected_intents": ["night", "drive"],
+    "acceptable_dataset_genres": ["electronic", "ambient", "house", "rock", "deep-house", "progressive-house"],
+    "notes": "English context prompt already partially supported by phrase hints."
+  },
+  {
+    "prompt": "ledsen indie",
+    "expected_genre_labels": ["Indie"],
+    "expected_intents": ["sad", "melancholic", "indie"],
+    "acceptable_dataset_genres": ["indie", "alternative", "acoustic", "songwriter", "indie-pop"],
+    "notes": "Mixed prompt combining genre and emotion."
+  },
+  {
+    "prompt": "arg hiphop",
+    "expected_genre_labels": ["Hip-Hop"],
+    "expected_intents": ["angry", "intense", "hiphop"],
+    "acceptable_dataset_genres": ["hip-hop", "industrial", "punk-rock", "metal", "metalcore"],
+    "notes": "Mixed prompt combining intensity and hip-hop intent."
+  },
+  {
+    "prompt": "mörk svensk indie",
+    "expected_genre_labels": ["Indie"],
+    "expected_intents": ["dark", "swedish", "indie"],
+    "acceptable_dataset_genres": ["indie", "alternative", "swedish", "songwriter", "indie-pop"],
+    "notes": "Mixed prompt combining scene, language, and mood."
+  },
+  {
+    "prompt": "glad sommarpop",
+    "expected_genre_labels": ["Pop"],
+    "expected_intents": ["happy", "summer", "pop"],
+    "acceptable_dataset_genres": ["pop", "indie-pop", "power-pop", "disco", "swedish", "house"],
+    "notes": "Mixed prompt combining mood, season, and genre."
+  },
+  {
+    "prompt": "lugn nattmusik",
+    "expected_genre_labels": [],
+    "expected_intents": ["calm", "night"],
+    "acceptable_dataset_genres": ["ambient", "acoustic", "piano", "new-age", "jazz", "trip-hop"],
+    "notes": "Mixed prompt combining calm and late-night context."
+  },
+  {
+    "prompt": "dansa house",
+    "expected_genre_labels": ["Electronic"],
+    "expected_intents": ["dance", "party", "house"],
+    "acceptable_dataset_genres": ["house", "deep-house", "progressive-house", "electronic", "trance"],
+    "notes": "Mixed prompt combining dance context and explicit genre."
+  }
+]

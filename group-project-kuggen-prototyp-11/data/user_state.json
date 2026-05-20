@@ -1,0 +1,1411 @@
+{
+  "saved_artists": [
+    {
+      "song_key": 1799681477,
+      "track_key": 1799681477,
+      "artist_key": "byz",
+      "artist": "BYZ",
+      "song": "Fest i Göteborg",
+      "title": "Fest i Göteborg",
+      "album": "Fest i Göteborg",
+      "genre": "rap-hip-hop",
+      "image": "https://cdn-images.dzcdn.net/images/cover/efadfdda1ca5a1b375ebcdb06a9a6a50/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/f/d/0/6fd75f5ca2732dc2455a5e59379b5670.mp3?hdnea=exp=1779277832~acl=/api/1/1/6/f/d/0/6fd75f5ca2732dc2455a5e59379b5670.mp3*~data=user_id=0,application_id=42~hmac=4401e76fcbabe5f16fb73e55bb2885f6ce009aba769e7ade58df507ca023e953",
+      "deezer_link": "https://www.deezer.com/track/1799681477",
+      "lastfm_link": null,
+      "reason": "Egen inlagd artist som nu blir en del av framtida discovery-logik.",
+      "top_genres": [
+        "rap-hip-hop"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": null,
+        "spotify_tracks": null,
+        "lastfm_listeners": null,
+        "deezer_fans": 536,
+        "audio_features_validated": false,
+        "audio_signature_source": "unvalidated",
+        "mood_source": ""
+      },
+      "audio_signature": {},
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": false,
+      "mood_source": "",
+      "discovery_labels": [
+        "Newly added",
+        "Hidden gem",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 0.9934,
+      "source": "custom",
+      "is_custom": true,
+      "note": "",
+      "community_slug": null,
+      "isrc": "SEWEG2200101",
+      "track_id": 1799681477,
+      "deezer_artist_id": 16721,
+      "album_id": 329519987,
+      "added_at": "2026-05-20T11:35:34Z",
+      "updated_at": "2026-05-20T11:35:34Z",
+      "user_id": 2,
+      "profile_username": "Lean",
+      "tags": [
+        "rap-hip-hop"
+      ],
+      "source_weight": 1.25,
+      "saved_at": "2026-05-20T11:35:34Z"
+    },
+    {
+      "song_key": 1656105312,
+      "track_key": 1656105312,
+      "artist_key": "philip nilsson",
+      "artist": "Philip Nilsson",
+      "song": "Varje gång jag frågar",
+      "title": "Varje gång jag frågar",
+      "album": "Varje gång jag frågar",
+      "genre": "r-n-b",
+      "image": "https://cdn-images.dzcdn.net/images/cover/a9f6fdb84e2755cc5e867ba600865f32/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/e/a/0/fea831591ec52e764b6087f9a4e4cc63.mp3?hdnea=exp=1778503895~acl=/api/1/1/f/e/a/0/fea831591ec52e764b6087f9a4e4cc63.mp3*~data=user_id=0,application_id=42~hmac=1065cf68eef8149fdbde695824a18050fc5bbebce63693ffe98f8fef86588e8d",
+      "deezer_link": "https://www.deezer.com/track/1656105312",
+      "lastfm_link": null,
+      "reason": "Egen inlagd artist som nu blir en del av framtida discovery-logik.",
+      "top_genres": [
+        "r-n-b"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": null,
+        "spotify_tracks": null,
+        "lastfm_listeners": null,
+        "deezer_fans": 2,
+        "audio_features_validated": false,
+        "audio_signature_source": "unvalidated",
+        "mood_source": ""
+      },
+      "audio_signature": {},
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": false,
+      "mood_source": "",
+      "discovery_labels": [
+        "Newly added",
+        "Hidden gem",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 1.0,
+      "source": "custom",
+      "is_custom": true,
+      "note": "",
+      "community_slug": null,
+      "isrc": "SE5752226644",
+      "track_id": 1656105312,
+      "deezer_artist_id": 95048232,
+      "album_id": 295727562,
+      "added_at": "2026-05-20T11:32:57Z",
+      "updated_at": "2026-05-20T11:32:57Z",
+      "user_id": 2,
+      "profile_username": "Lean",
+      "tags": [
+        "r-n-b"
+      ],
+      "source_weight": 1.25,
+      "saved_at": "2026-05-20T11:32:57Z"
+    },
+    {
+      "artist_key": "the walters",
+      "artist": "the walters",
+      "song_key": "73WInbzcrppphpw0PK55gw",
+      "track_key": "73WInbzcrppphpw0PK55gw",
+      "track_id": "73WInbzcrppphpw0PK55gw",
+      "song": "i love you so",
+      "title": "i love you so",
+      "genre": "indie",
+      "image": "https://cdn-images.dzcdn.net/images/cover/de5f0b9da9adcada7849e552e2fb3b50/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/9/c/0/99c774e6fe9869b36a78c2adef45f763.mp3?hdnea=exp=1779271781~acl=/api/1/1/9/9/c/0/99c774e6fe9869b36a78c2adef45f763.mp3*~data=user_id=0,application_id=42~hmac=4484d3f850fa96cb9d08fbfc1be7eef5dbcfd92045ab96b1f33a1e0311566199",
+      "deezer_link": "https://www.deezer.com/track/1526991462",
+      "lastfm_link": null,
+      "reason": "Genrebaserad random discovery Den kommer fran kmeans cluster 2. Small artist boost via spotify-popularitet, deezer-fans.",
+      "top_genres": [
+        "indie"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": 12.86,
+        "spotify_tracks": 7,
+        "lastfm_listeners": null,
+        "deezer_fans": 33343
+      },
+      "audio_signature": {
+        "danceability": 0.575,
+        "energy": 0.648,
+        "valence": 0.466,
+        "acousticness": 0.583,
+        "instrumentalness": 0.0,
+        "tempo": 75.977
+      },
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": true,
+      "mood_source": "dataset",
+      "discovery_labels": [
+        "Small artist boost",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 2,
+      "cluster_label": "KMeans cluster 2",
+      "small_artist_score": 0.6645,
+      "source": "dataset",
+      "is_custom": false,
+      "user_id": 2,
+      "profile_username": "Lean",
+      "saved_at": "2026-05-20T09:55:06Z"
+    },
+    {
+      "artist_key": "the rare occasions",
+      "artist": "the rare occasions",
+      "song_key": "1ASrtMmTHLIBTLtp2Y5wJr",
+      "track_key": "1ASrtMmTHLIBTLtp2Y5wJr",
+      "track_id": "1ASrtMmTHLIBTLtp2Y5wJr",
+      "song": "notion",
+      "title": "notion",
+      "genre": "indie",
+      "image": "https://cdn-images.dzcdn.net/images/cover/44310c327169b1ca1958529ffdd37f38/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/c/f/0/6cfecd65caca089592dba5e21c991f90.mp3?hdnea=exp=1779271777~acl=/api/1/1/6/c/f/0/6cfecd65caca089592dba5e21c991f90.mp3*~data=user_id=0,application_id=42~hmac=13c5490209d111258471cac239030084ea4220624c15e92b31ae27783daf7869",
+      "deezer_link": "https://www.deezer.com/track/1572200162",
+      "lastfm_link": null,
+      "reason": "Genrebaserad random discovery Den kommer fran kmeans cluster 0. Small artist boost via spotify-popularitet, deezer-fans.",
+      "top_genres": [
+        "indie"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": 12.14,
+        "spotify_tracks": 7,
+        "lastfm_listeners": null,
+        "deezer_fans": 25122
+      },
+      "audio_signature": {
+        "danceability": 0.309,
+        "energy": 0.883,
+        "valence": 0.312,
+        "acousticness": 0.0673,
+        "instrumentalness": 0.00111,
+        "tempo": 159.488
+      },
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": true,
+      "mood_source": "dataset",
+      "discovery_labels": [
+        "Small artist boost",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 0,
+      "cluster_label": "KMeans cluster 0",
+      "small_artist_score": 0.6886,
+      "source": "dataset",
+      "is_custom": false,
+      "user_id": 2,
+      "profile_username": "Lean",
+      "saved_at": "2026-05-20T09:55:01Z"
+    },
+    {
+      "artist_key": "proyecto gomez casa",
+      "artist": "proyecto gomez casa",
+      "song_key": "nan",
+      "track_key": "7uawyFxf4wrknnPA77iFbK",
+      "track_id": "7uawyFxf4wrknnPA77iFbK",
+      "song": "cuál es tu núcleo",
+      "title": "cuál es tu núcleo",
+      "genre": "electronic",
+      "image": "https://cdn-images.dzcdn.net/images/cover/9d419c036bb066e5d95210e62f561cdc/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/b/0/49b0ce9b3ba1682e022021d89c920c68.mp3?hdnea=exp=1779234409~acl=/api/1/1/4/9/b/0/49b0ce9b3ba1682e022021d89c920c68.mp3*~data=user_id=0,application_id=42~hmac=66a6d05c6aa92ec4bf9ad1267d78959b74d3f3c85ce75d6c7351354daa68557c",
+      "deezer_link": "https://www.deezer.com/track/1504121632",
+      "lastfm_link": null,
+      "reason": "Vald for ditt Small Web-flode Den kommer fran kmeans cluster 4. Small artist boost via spotify-popularitet, deezer-fans.",
+      "top_genres": [
+        "electronic"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": 33,
+        "spotify_tracks": 1,
+        "lastfm_listeners": null,
+        "deezer_fans": 276
+      },
+      "audio_signature": {
+        "danceability": 0.869,
+        "energy": 0.664,
+        "valence": 0.686,
+        "acousticness": 0.0296,
+        "instrumentalness": 0.000795,
+        "tempo": 103.982
+      },
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": true,
+      "mood_source": "dataset",
+      "discovery_labels": [
+        "Small artist boost",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 0.7221,
+      "source": "dataset",
+      "is_custom": false,
+      "user_id": 2,
+      "profile_username": "Lean",
+      "saved_at": "2026-05-19T23:32:17Z"
+    },
+    {
+      "artist_key": "die gebruder brett",
+      "artist": "die gebrüder brett",
+      "song_key": "69HrNNadiRHKanyxn3du2k",
+      "track_key": "69HrNNadiRHKanyxn3du2k",
+      "track_id": "69HrNNadiRHKanyxn3du2k",
+      "song": "dgb allstars",
+      "title": "dgb allstars",
+      "genre": "electronic",
+      "image": "https://cdn-images.dzcdn.net/images/cover/068b68ed32a1f134af0c7eb3850411a1/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/4/1/0/741bea95d805eaa7a656928c2baab55a.mp3?hdnea=exp=1779232570~acl=/api/1/1/7/4/1/0/741bea95d805eaa7a656928c2baab55a.mp3*~data=user_id=0,application_id=42~hmac=ab1ed52aba37373e6c46c54f572ac0316e1bd53cc7d93751e09087210a649222",
+      "deezer_link": "https://www.deezer.com/track/1166138222",
+      "lastfm_link": null,
+      "reason": "Genrebaserad random discovery Den kommer fran kmeans cluster 4. Small artist boost via spotify-popularitet, deezer-fans.",
+      "top_genres": [
+        "electronic"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": 34,
+        "spotify_tracks": 2,
+        "lastfm_listeners": null,
+        "deezer_fans": 8333
+      },
+      "audio_signature": {
+        "danceability": 0.888,
+        "energy": 0.837,
+        "valence": 0.601,
+        "acousticness": 0.0761,
+        "instrumentalness": 0.0,
+        "tempo": 87.453
+      },
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": true,
+      "mood_source": "dataset",
+      "discovery_labels": [
+        "Small artist boost",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 0.683,
+      "source": "dataset",
+      "is_custom": false,
+      "user_id": 1,
+      "profile_username": "Testkonto",
+      "saved_at": "2026-05-19T23:01:28Z"
+    },
+    {
+      "song_key": 3115471831,
+      "track_key": 3115471831,
+      "artist_key": "ebba",
+      "artist": "EBBA",
+      "song": "Dopamin",
+      "title": "Dopamin",
+      "album": "Dopamin",
+      "genre": "pop",
+      "image": "https://cdn-images.dzcdn.net/images/cover/7bdec8dfb23c9fbbd4690a0fdd5af0ff/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/1/0/2d108c5e53b4605c21a3d9a3fd43e16e.mp3?hdnea=exp=1779181278~acl=/api/1/1/2/d/1/0/2d108c5e53b4605c21a3d9a3fd43e16e.mp3*~data=user_id=0,application_id=42~hmac=5020b924e8696bc3edbb9960b92bf2e84efe93d65be5349416062b08fe55e3e8",
+      "deezer_link": "https://www.deezer.com/track/3115471831",
+      "lastfm_link": null,
+      "reason": "Egen inlagd artist som nu blir en del av framtida discovery-logik.",
+      "top_genres": [
+        "pop"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": null,
+        "spotify_tracks": null,
+        "lastfm_listeners": null,
+        "deezer_fans": 35,
+        "audio_features_validated": false,
+        "audio_signature_source": "unvalidated",
+        "mood_source": ""
+      },
+      "audio_signature": {},
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": false,
+      "mood_source": "",
+      "discovery_labels": [
+        "Newly added",
+        "Hidden gem",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 0.9996,
+      "source": "custom",
+      "is_custom": true,
+      "note": "",
+      "community_slug": null,
+      "isrc": "SE5SK2109001",
+      "track_id": 3115471831,
+      "deezer_artist_id": 9638846,
+      "album_id": 676388571,
+      "added_at": "2026-05-19T08:46:19Z",
+      "updated_at": "2026-05-19T08:46:19Z",
+      "tags": [
+        "pop"
+      ],
+      "source_weight": 1.25,
+      "saved_at": "2026-05-19T08:46:19Z"
+    },
+    {
+      "song_key": 3794482312,
+      "track_key": 3794482312,
+      "artist_key": "breezonic",
+      "artist": "Breezonic",
+      "song": "simple things",
+      "title": "simple things",
+      "album": "simple things",
+      "genre": "rap-hip-hop",
+      "image": "https://cdn-images.dzcdn.net/images/cover/bdfefd3e42030a04d0937ced7b4c2578/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/3/e/0/53ed843e9c1b4d410bf3ea64dd155f4e.mp3?hdnea=exp=1779146811~acl=/api/1/1/5/3/e/0/53ed843e9c1b4d410bf3ea64dd155f4e.mp3*~data=user_id=0,application_id=42~hmac=45e0502f26210c3e1ff948271b23dfd0f7290c4ef3d43650443aa95e4652353c",
+      "deezer_link": "https://www.deezer.com/track/3794482312",
+      "lastfm_link": null,
+      "reason": "Egen inlagd artist som nu blir en del av framtida discovery-logik.",
+      "top_genres": [
+        "rap-hip-hop"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": null,
+        "spotify_tracks": null,
+        "lastfm_listeners": null,
+        "deezer_fans": 10,
+        "audio_features_validated": false,
+        "audio_signature_source": "unvalidated",
+        "mood_source": ""
+      },
+      "audio_signature": {},
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": false,
+      "mood_source": "",
+      "discovery_labels": [
+        "Newly added",
+        "Hidden gem",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 0.9999,
+      "source": "custom",
+      "is_custom": true,
+      "note": "",
+      "community_slug": null,
+      "isrc": "QZAKB2545973",
+      "track_id": 3794482312,
+      "deezer_artist_id": 256811722,
+      "album_id": 903844462,
+      "added_at": "2026-05-18T23:11:51Z",
+      "updated_at": "2026-05-18T23:11:51Z",
+      "tags": [
+        "rap-hip-hop"
+      ],
+      "source_weight": 1.25,
+      "saved_at": "2026-05-18T23:11:51Z"
+    },
+    {
+      "song_key": 10245728,
+      "track_key": 10245728,
+      "artist_key": "timbuktu",
+      "artist": "Timbuktu",
+      "song": "Fuck D",
+      "title": "Fuck D",
+      "album": "The botten is nådd",
+      "genre": "rap-hip-hop",
+      "image": "https://cdn-images.dzcdn.net/images/cover/bfbb8acb7865440aa0aecc225947a325/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/f/0/28fc0e6cfa9261dc848f16b13b50537c.mp3?hdnea=exp=1779128490~acl=/api/1/1/2/8/f/0/28fc0e6cfa9261dc848f16b13b50537c.mp3*~data=user_id=0,application_id=42~hmac=050356cc0f2f54fad0d616dd51b24657a7f24c7f063a128decf1ccc6164e3555",
+      "deezer_link": "https://www.deezer.com/track/10245728",
+      "lastfm_link": null,
+      "reason": "Egen inlagd artist som nu blir en del av framtida discovery-logik.",
+      "top_genres": [
+        "rap-hip-hop",
+        "ska"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": 38,
+        "spotify_tracks": 1,
+        "lastfm_listeners": null,
+        "deezer_fans": 9961,
+        "audio_features_validated": false,
+        "audio_signature_source": "unvalidated",
+        "mood_source": ""
+      },
+      "audio_signature": {},
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": false,
+      "mood_source": "",
+      "discovery_labels": [
+        "Newly added",
+        "Small artist boost",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 0.667,
+      "source": "custom",
+      "is_custom": true,
+      "note": "Denna borde fler lyssna på",
+      "community_slug": "swedish-underground",
+      "isrc": "SEVLE0300412",
+      "track_id": 10245728,
+      "deezer_artist_id": 6659,
+      "album_id": 936916,
+      "added_at": "2026-05-18T18:06:23Z",
+      "updated_at": "2026-05-18T18:06:23Z",
+      "tags": [
+        "rap-hip-hop",
+        "ska"
+      ],
+      "source_weight": 1.25,
+      "saved_at": "2026-05-18T18:06:24Z"
+    },
+    {
+      "track_key": 3277172741,
+      "artist_key": "akovi",
+      "artist": "AKOVI",
+      "song": "PERFECT MATCH",
+      "album": "PERFECT MATCH",
+      "genre": "rap-hip-hop",
+      "image": "https://cdn-images.dzcdn.net/images/cover/dda66bb6facb2dc3fb3c42117951d2c2/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/e/9/0/0e9e99504c577ae4c1074bc5601a85af.mp3?hdnea=exp=1779116081~acl=/api/1/1/0/e/9/0/0e9e99504c577ae4c1074bc5601a85af.mp3*~data=user_id=0,application_id=42~hmac=00f1ba6fe577b333bf592c06941d984ef8c9b4008297b28a5c0ae73b3946d25f",
+      "deezer_link": "https://www.deezer.com/track/3277172741",
+      "lastfm_link": null,
+      "reason": "Egen inlagd artist som nu blir en del av framtida discovery-logik.",
+      "top_genres": [
+        "rap-hip-hop"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": null,
+        "spotify_tracks": null,
+        "lastfm_listeners": null,
+        "deezer_fans": 236,
+        "audio_features_validated": false,
+        "audio_signature_source": "unvalidated",
+        "mood_source": ""
+      },
+      "audio_signature": {},
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": false,
+      "mood_source": "",
+      "discovery_labels": [
+        "Newly added",
+        "Hidden gem",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 0.9971,
+      "source": "custom",
+      "is_custom": true,
+      "note": "Dena pop låt är banger",
+      "community_slug": null,
+      "isrc": "SE6XY2513010",
+      "track_id": 3277172741,
+      "deezer_artist_id": 309164131,
+      "album_id": 726947921,
+      "added_at": "2026-05-18T14:39:42Z",
+      "updated_at": "2026-05-18T14:39:42Z",
+      "tags": [
+        "rap-hip-hop"
+      ],
+      "source_weight": 1.25,
+      "saved_at": "2026-05-18T14:39:42Z"
+    },
+    {
+      "track_key": 1365962452,
+      "artist_key": "olivia lobato",
+      "artist": "Olivia Lobato",
+      "song": "Syrener",
+      "album": "Syrener",
+      "genre": "pop",
+      "image": "https://cdn-images.dzcdn.net/images/cover/a18dd3ea28c134f269df874fc6fa0151/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/4/f/0/34ff318ec599dde31cd241e3a9122e74.mp3?hdnea=exp=1779108002~acl=/api/1/1/3/4/f/0/34ff318ec599dde31cd241e3a9122e74.mp3*~data=user_id=0,application_id=42~hmac=133eea0fe61165bd1b62be919e5723b95cd5d21dec421caf2cf82ee2169e8780",
+      "deezer_link": "https://www.deezer.com/track/1365962452",
+      "lastfm_link": null,
+      "reason": "Egen inlagd artist som nu blir en del av framtida discovery-logik.",
+      "top_genres": [
+        "pop",
+        "swedish"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": 0.67,
+        "spotify_tracks": 3,
+        "lastfm_listeners": null,
+        "deezer_fans": 97,
+        "audio_features_validated": true,
+        "audio_signature_source": "dataset_track_match",
+        "mood_source": "dataset"
+      },
+      "audio_signature": {
+        "danceability": 0.643,
+        "energy": 0.476,
+        "valence": 0.358,
+        "acousticness": 0.106,
+        "instrumentalness": 0.0202,
+        "tempo": 122.948
+      },
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": true,
+      "mood_source": "dataset",
+      "discovery_labels": [
+        "Newly added",
+        "Hidden gem",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 0.8334,
+      "source": "custom",
+      "is_custom": true,
+      "note": "",
+      "isrc": "SEUM72100482",
+      "track_id": 1365962452,
+      "deezer_artist_id": 96710512,
+      "album_id": 228462252,
+      "added_at": "2026-05-18T12:25:02Z",
+      "updated_at": "2026-05-18T12:25:02Z",
+      "tags": [
+        "pop",
+        "swedish"
+      ],
+      "source_weight": 1.25,
+      "saved_at": "2026-05-18T12:25:02Z"
+    }
+  ],
+  "custom_artists": [
+    {
+      "song_key": 1799681477,
+      "track_key": 1799681477,
+      "artist_key": "byz",
+      "artist": "BYZ",
+      "song": "Fest i Göteborg",
+      "title": "Fest i Göteborg",
+      "album": "Fest i Göteborg",
+      "genre": "rap-hip-hop",
+      "image": "https://cdn-images.dzcdn.net/images/cover/efadfdda1ca5a1b375ebcdb06a9a6a50/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/f/d/0/6fd75f5ca2732dc2455a5e59379b5670.mp3?hdnea=exp=1779277832~acl=/api/1/1/6/f/d/0/6fd75f5ca2732dc2455a5e59379b5670.mp3*~data=user_id=0,application_id=42~hmac=4401e76fcbabe5f16fb73e55bb2885f6ce009aba769e7ade58df507ca023e953",
+      "deezer_link": "https://www.deezer.com/track/1799681477",
+      "lastfm_link": null,
+      "reason": "Egen inlagd artist som nu blir en del av framtida discovery-logik.",
+      "top_genres": [
+        "rap-hip-hop"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": null,
+        "spotify_tracks": null,
+        "lastfm_listeners": null,
+        "deezer_fans": 536,
+        "audio_features_validated": false,
+        "audio_signature_source": "unvalidated",
+        "mood_source": ""
+      },
+      "audio_signature": {},
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": false,
+      "mood_source": "",
+      "discovery_labels": [
+        "Newly added",
+        "Hidden gem",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 0.9934,
+      "source": "custom",
+      "is_custom": true,
+      "note": "",
+      "community_slug": null,
+      "isrc": "SEWEG2200101",
+      "track_id": 1799681477,
+      "deezer_artist_id": 16721,
+      "album_id": 329519987,
+      "added_at": "2026-05-20T11:35:34Z",
+      "updated_at": "2026-05-20T11:35:34Z",
+      "user_id": 2,
+      "profile_username": "Lean",
+      "tags": [
+        "rap-hip-hop"
+      ],
+      "source_weight": 1.25
+    },
+    {
+      "song_key": 1656105312,
+      "track_key": 1656105312,
+      "artist_key": "philip nilsson",
+      "artist": "Philip Nilsson",
+      "song": "Varje gång jag frågar",
+      "title": "Varje gång jag frågar",
+      "album": "Varje gång jag frågar",
+      "genre": "r-n-b",
+      "image": "https://cdn-images.dzcdn.net/images/cover/a9f6fdb84e2755cc5e867ba600865f32/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/e/a/0/fea831591ec52e764b6087f9a4e4cc63.mp3?hdnea=exp=1778503895~acl=/api/1/1/f/e/a/0/fea831591ec52e764b6087f9a4e4cc63.mp3*~data=user_id=0,application_id=42~hmac=1065cf68eef8149fdbde695824a18050fc5bbebce63693ffe98f8fef86588e8d",
+      "deezer_link": "https://www.deezer.com/track/1656105312",
+      "lastfm_link": null,
+      "reason": "Egen inlagd artist som nu blir en del av framtida discovery-logik.",
+      "top_genres": [
+        "r-n-b"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": null,
+        "spotify_tracks": null,
+        "lastfm_listeners": null,
+        "deezer_fans": 2,
+        "audio_features_validated": false,
+        "audio_signature_source": "unvalidated",
+        "mood_source": ""
+      },
+      "audio_signature": {},
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": false,
+      "mood_source": "",
+      "discovery_labels": [
+        "Newly added",
+        "Hidden gem",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 1.0,
+      "source": "custom",
+      "is_custom": true,
+      "note": "",
+      "community_slug": null,
+      "isrc": "SE5752226644",
+      "track_id": 1656105312,
+      "deezer_artist_id": 95048232,
+      "album_id": 295727562,
+      "added_at": "2026-05-20T11:32:57Z",
+      "updated_at": "2026-05-20T11:32:57Z",
+      "user_id": 2,
+      "profile_username": "Lean",
+      "tags": [
+        "r-n-b"
+      ],
+      "source_weight": 1.25
+    },
+    {
+      "song_key": 3115471831,
+      "track_key": 3115471831,
+      "artist_key": "ebba",
+      "artist": "EBBA",
+      "song": "Dopamin",
+      "title": "Dopamin",
+      "album": "Dopamin",
+      "genre": "pop",
+      "image": "https://cdn-images.dzcdn.net/images/cover/7bdec8dfb23c9fbbd4690a0fdd5af0ff/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/1/0/2d108c5e53b4605c21a3d9a3fd43e16e.mp3?hdnea=exp=1779181278~acl=/api/1/1/2/d/1/0/2d108c5e53b4605c21a3d9a3fd43e16e.mp3*~data=user_id=0,application_id=42~hmac=5020b924e8696bc3edbb9960b92bf2e84efe93d65be5349416062b08fe55e3e8",
+      "deezer_link": "https://www.deezer.com/track/3115471831",
+      "lastfm_link": null,
+      "reason": "Egen inlagd artist som nu blir en del av framtida discovery-logik.",
+      "top_genres": [
+        "pop"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": null,
+        "spotify_tracks": null,
+        "lastfm_listeners": null,
+        "deezer_fans": 35,
+        "audio_features_validated": false,
+        "audio_signature_source": "unvalidated",
+        "mood_source": ""
+      },
+      "audio_signature": {},
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": false,
+      "mood_source": "",
+      "discovery_labels": [
+        "Newly added",
+        "Hidden gem",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 0.9996,
+      "source": "custom",
+      "is_custom": true,
+      "note": "",
+      "community_slug": null,
+      "isrc": "SE5SK2109001",
+      "track_id": 3115471831,
+      "deezer_artist_id": 9638846,
+      "album_id": 676388571,
+      "added_at": "2026-05-19T08:46:19Z",
+      "updated_at": "2026-05-19T08:46:19Z",
+      "tags": [
+        "pop"
+      ],
+      "source_weight": 1.25
+    },
+    {
+      "song_key": 3794482312,
+      "track_key": 3794482312,
+      "artist_key": "breezonic",
+      "artist": "Breezonic",
+      "song": "simple things",
+      "title": "simple things",
+      "album": "simple things",
+      "genre": "rap-hip-hop",
+      "image": "https://cdn-images.dzcdn.net/images/cover/bdfefd3e42030a04d0937ced7b4c2578/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/3/e/0/53ed843e9c1b4d410bf3ea64dd155f4e.mp3?hdnea=exp=1779146811~acl=/api/1/1/5/3/e/0/53ed843e9c1b4d410bf3ea64dd155f4e.mp3*~data=user_id=0,application_id=42~hmac=45e0502f26210c3e1ff948271b23dfd0f7290c4ef3d43650443aa95e4652353c",
+      "deezer_link": "https://www.deezer.com/track/3794482312",
+      "lastfm_link": null,
+      "reason": "Egen inlagd artist som nu blir en del av framtida discovery-logik.",
+      "top_genres": [
+        "rap-hip-hop"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": null,
+        "spotify_tracks": null,
+        "lastfm_listeners": null,
+        "deezer_fans": 10,
+        "audio_features_validated": false,
+        "audio_signature_source": "unvalidated",
+        "mood_source": ""
+      },
+      "audio_signature": {},
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": false,
+      "mood_source": "",
+      "discovery_labels": [
+        "Newly added",
+        "Hidden gem",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 0.9999,
+      "source": "custom",
+      "is_custom": true,
+      "note": "",
+      "community_slug": null,
+      "isrc": "QZAKB2545973",
+      "track_id": 3794482312,
+      "deezer_artist_id": 256811722,
+      "album_id": 903844462,
+      "added_at": "2026-05-18T23:11:51Z",
+      "updated_at": "2026-05-18T23:11:51Z",
+      "tags": [
+        "rap-hip-hop"
+      ],
+      "source_weight": 1.25
+    },
+    {
+      "song_key": 10245728,
+      "track_key": 10245728,
+      "artist_key": "timbuktu",
+      "artist": "Timbuktu",
+      "song": "Fuck D",
+      "title": "Fuck D",
+      "album": "The botten is nådd",
+      "genre": "rap-hip-hop",
+      "image": "https://cdn-images.dzcdn.net/images/cover/bfbb8acb7865440aa0aecc225947a325/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/f/0/28fc0e6cfa9261dc848f16b13b50537c.mp3?hdnea=exp=1779128490~acl=/api/1/1/2/8/f/0/28fc0e6cfa9261dc848f16b13b50537c.mp3*~data=user_id=0,application_id=42~hmac=050356cc0f2f54fad0d616dd51b24657a7f24c7f063a128decf1ccc6164e3555",
+      "deezer_link": "https://www.deezer.com/track/10245728",
+      "lastfm_link": null,
+      "reason": "Egen inlagd artist som nu blir en del av framtida discovery-logik.",
+      "top_genres": [
+        "rap-hip-hop",
+        "ska"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": 38,
+        "spotify_tracks": 1,
+        "lastfm_listeners": null,
+        "deezer_fans": 9961,
+        "audio_features_validated": false,
+        "audio_signature_source": "unvalidated",
+        "mood_source": ""
+      },
+      "audio_signature": {},
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": false,
+      "mood_source": "",
+      "discovery_labels": [
+        "Newly added",
+        "Small artist boost",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 0.667,
+      "source": "custom",
+      "is_custom": true,
+      "note": "Denna borde fler lyssna på",
+      "community_slug": "swedish-underground",
+      "isrc": "SEVLE0300412",
+      "track_id": 10245728,
+      "deezer_artist_id": 6659,
+      "album_id": 936916,
+      "added_at": "2026-05-18T18:06:23Z",
+      "updated_at": "2026-05-18T18:06:23Z",
+      "tags": [
+        "rap-hip-hop",
+        "ska"
+      ],
+      "source_weight": 1.25
+    },
+    {
+      "track_key": 3277172741,
+      "artist_key": "akovi",
+      "artist": "AKOVI",
+      "song": "PERFECT MATCH",
+      "album": "PERFECT MATCH",
+      "genre": "rap-hip-hop",
+      "image": "https://cdn-images.dzcdn.net/images/cover/dda66bb6facb2dc3fb3c42117951d2c2/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/e/9/0/0e9e99504c577ae4c1074bc5601a85af.mp3?hdnea=exp=1779116081~acl=/api/1/1/0/e/9/0/0e9e99504c577ae4c1074bc5601a85af.mp3*~data=user_id=0,application_id=42~hmac=00f1ba6fe577b333bf592c06941d984ef8c9b4008297b28a5c0ae73b3946d25f",
+      "deezer_link": "https://www.deezer.com/track/3277172741",
+      "lastfm_link": null,
+      "reason": "Egen inlagd artist som nu blir en del av framtida discovery-logik.",
+      "top_genres": [
+        "rap-hip-hop"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": null,
+        "spotify_tracks": null,
+        "lastfm_listeners": null,
+        "deezer_fans": 236,
+        "audio_features_validated": false,
+        "audio_signature_source": "unvalidated",
+        "mood_source": ""
+      },
+      "audio_signature": {},
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": false,
+      "mood_source": "",
+      "discovery_labels": [
+        "Newly added",
+        "Hidden gem",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 0.9971,
+      "source": "custom",
+      "is_custom": true,
+      "note": "Dena pop låt är banger",
+      "community_slug": null,
+      "isrc": "SE6XY2513010",
+      "track_id": 3277172741,
+      "deezer_artist_id": 309164131,
+      "album_id": 726947921,
+      "added_at": "2026-05-18T14:39:42Z",
+      "updated_at": "2026-05-18T14:39:42Z",
+      "tags": [
+        "rap-hip-hop"
+      ],
+      "source_weight": 1.25
+    },
+    {
+      "track_key": 1365962452,
+      "artist_key": "olivia lobato",
+      "artist": "Olivia Lobato",
+      "song": "Syrener",
+      "album": "Syrener",
+      "genre": "pop",
+      "image": "https://cdn-images.dzcdn.net/images/cover/a18dd3ea28c134f269df874fc6fa0151/1000x1000-000000-80-0-0.jpg",
+      "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/4/f/0/34ff318ec599dde31cd241e3a9122e74.mp3?hdnea=exp=1779108002~acl=/api/1/1/3/4/f/0/34ff318ec599dde31cd241e3a9122e74.mp3*~data=user_id=0,application_id=42~hmac=133eea0fe61165bd1b62be919e5723b95cd5d21dec421caf2cf82ee2169e8780",
+      "deezer_link": "https://www.deezer.com/track/1365962452",
+      "lastfm_link": null,
+      "reason": "Egen inlagd artist som nu blir en del av framtida discovery-logik.",
+      "top_genres": [
+        "pop",
+        "swedish"
+      ],
+      "similar_artists": [],
+      "metrics": {
+        "spotify_popularity": 0.67,
+        "spotify_tracks": 3,
+        "lastfm_listeners": null,
+        "deezer_fans": 97,
+        "audio_features_validated": true,
+        "audio_signature_source": "dataset_track_match",
+        "mood_source": "dataset"
+      },
+      "audio_signature": {
+        "danceability": 0.643,
+        "energy": 0.476,
+        "valence": 0.358,
+        "acousticness": 0.106,
+        "instrumentalness": 0.0202,
+        "tempo": 122.948
+      },
+      "mood_profile": {},
+      "estimated_mood_profile": {},
+      "audio_validated": true,
+      "mood_source": "dataset",
+      "discovery_labels": [
+        "Newly added",
+        "Hidden gem",
+        "Similar mood",
+        "Underground cluster"
+      ],
+      "cluster_id": 4,
+      "cluster_label": "KMeans cluster 4",
+      "small_artist_score": 0.8334,
+      "source": "custom",
+      "is_custom": true,
+      "note": "",
+      "isrc": "SEUM72100482",
+      "track_id": 1365962452,
+      "deezer_artist_id": 96710512,
+      "album_id": 228462252,
+      "added_at": "2026-05-18T12:25:02Z",
+      "updated_at": "2026-05-18T12:25:02Z",
+      "tags": [
+        "pop",
+        "swedish"
+      ],
+      "source_weight": 1.25
+    }
+  ],
+  "community_posts": [
+    {
+      "username": "Lean",
+      "user_id": 2,
+      "profile_username": "Lean",
+      "text": "Delade en ny mindre artist till community-flodet.",
+      "tip_artist": "BYZ",
+      "tip_song": "Fest i Göteborg",
+      "artist_key": "byz",
+      "community_slug": null,
+      "source": "feed",
+      "song_key": 1799681477,
+      "track_key": 1799681477,
+      "track_id": 1799681477,
+      "isrc": "SEWEG2200101",
+      "created_at": "2026-05-20T11:35:34Z",
+      "id": "post-2026-05-20T11:35:34Z-Lean",
+      "replies": []
+    },
+    {
+      "username": "Lean",
+      "user_id": 2,
+      "profile_username": "Lean",
+      "text": "Delade en ny mindre artist till community-flodet.",
+      "tip_artist": "Philip Nilsson",
+      "tip_song": "Varje gång jag frågar",
+      "artist_key": "philip nilsson",
+      "community_slug": null,
+      "source": "feed",
+      "song_key": 1656105312,
+      "track_key": 1656105312,
+      "track_id": 1656105312,
+      "isrc": "SE5752226644",
+      "created_at": "2026-05-20T11:32:57Z",
+      "id": "post-2026-05-20T11:32:57Z-Lean",
+      "replies": []
+    },
+    {
+      "username": "Lean",
+      "user_id": 2,
+      "profile_username": "Lean",
+      "text": "Har någon tips på mindre lean inspirerade låtar? Lite sad boy energi",
+      "tip_artist": null,
+      "tip_song": null,
+      "artist_key": null,
+      "community_slug": "swedish-underground",
+      "source": "community",
+      "song_key": null,
+      "track_key": null,
+      "track_id": null,
+      "isrc": null,
+      "replies": [],
+      "created_at": "2026-05-20T09:56:14Z",
+      "id": "post-2026-05-20T09:56:14Z-Lean"
+    },
+    {
+      "username": "Testkonto",
+      "text": "hej!",
+      "tip_artist": null,
+      "tip_song": null,
+      "artist_key": null,
+      "community_slug": "swedish-underground",
+      "source": "community",
+      "song_key": null,
+      "track_key": null,
+      "track_id": null,
+      "isrc": null,
+      "replies": [],
+      "created_at": "2026-05-19T22:59:39Z",
+      "id": "post-2026-05-19T22:59:39Z-Testkonto"
+    },
+    {
+      "username": "du",
+      "text": "Heeej! Är det något tips på en låt?",
+      "tip_artist": null,
+      "tip_song": null,
+      "artist_key": null,
+      "community_slug": "late-night-discoveries",
+      "source": "community",
+      "song_key": null,
+      "track_key": null,
+      "track_id": null,
+      "isrc": null,
+      "replies": [],
+      "created_at": "2026-05-19T09:54:38Z",
+      "id": "post-2026-05-19T09:54:38Z-du"
+    },
+    {
+      "username": "du",
+      "text": "Delade en ny mindre artist till community-flodet.",
+      "tip_artist": "EBBA",
+      "tip_song": "Dopamin",
+      "artist_key": "ebba",
+      "community_slug": null,
+      "source": "feed",
+      "song_key": 3115471831,
+      "track_key": 3115471831,
+      "track_id": 3115471831,
+      "isrc": "SE5SK2109001",
+      "created_at": "2026-05-19T08:46:19Z",
+      "id": "post-2026-05-19T08:46:19Z-du",
+      "replies": []
+    },
+    {
+      "username": "du",
+      "text": "dad",
+      "tip_artist": "Breezonic",
+      "tip_song": "simple things",
+      "artist_key": "breezonic",
+      "community_slug": "late-night-discoveries",
+      "source": "feed",
+      "song_key": "3794482312",
+      "track_key": "3794482312",
+      "track_id": 3794482312,
+      "isrc": "QZAKB2545973",
+      "replies": [
+        {
+          "username": "du",
+          "text": "riktigt fet",
+          "created_at": "2026-05-19T06:35:08Z",
+          "id": "reply-2026-05-19T06:35:08Z-du"
+        },
+        {
+          "username": "du",
+          "text": "dasdasd",
+          "created_at": "2026-05-19T06:35:32Z",
+          "id": "reply-2026-05-19T06:35:32Z-du"
+        },
+        {
+          "username": "du",
+          "text": "fyran va bra",
+          "created_at": "2026-05-19T08:41:13Z",
+          "id": "reply-2026-05-19T08:41:13Z-du"
+        },
+        {
+          "username": "du",
+          "text": "denna sög tyvärr alldeles för inspererad av sun kil moons skiva från 2006... inte orginellt",
+          "created_at": "2026-05-19T09:55:38Z",
+          "id": "reply-2026-05-19T09:55:38Z-du"
+        }
+      ],
+      "created_at": "2026-05-19T06:30:35Z",
+      "id": "post-2026-05-19T06:30:35Z-du"
+    },
+    {
+      "username": "du",
+      "text": "Hjo",
+      "tip_artist": null,
+      "tip_song": null,
+      "artist_key": null,
+      "community_slug": "late-night-discoveries",
+      "source": "feed",
+      "song_key": null,
+      "track_key": null,
+      "track_id": null,
+      "isrc": null,
+      "replies": [],
+      "created_at": "2026-05-19T06:30:30Z",
+      "id": "post-2026-05-19T06:30:30Z-du"
+    },
+    {
+      "username": "du",
+      "text": "Delade en ny mindre artist till community-flodet.",
+      "tip_artist": "Breezonic",
+      "tip_song": "simple things",
+      "artist_key": "breezonic",
+      "community_slug": null,
+      "source": "feed",
+      "song_key": 3794482312,
+      "track_key": 3794482312,
+      "track_id": 3794482312,
+      "isrc": "QZAKB2545973",
+      "created_at": "2026-05-18T23:11:51Z",
+      "id": "post-2026-05-18T23:11:51Z-du",
+      "replies": []
+    },
+    {
+      "username": "du",
+      "text": "Delade en ny mindre artist till community-flodet.",
+      "tip_artist": "Timbuktu",
+      "tip_song": "Fuck D",
+      "artist_key": "timbuktu",
+      "community_slug": "swedish-underground",
+      "source": "community",
+      "song_key": 10245728,
+      "track_key": 10245728,
+      "track_id": 10245728,
+      "isrc": "SEVLE0300412",
+      "created_at": "2026-05-18T18:06:24Z",
+      "id": "post-2026-05-18T18:06:24Z-du",
+      "replies": [
+        {
+          "username": "du",
+          "text": "underskattad frfr",
+          "created_at": "2026-05-18T18:06:46Z",
+          "id": "reply-2026-05-18T18:06:46Z-du"
+        }
+      ]
+    },
+    {
+      "username": "du",
+      "text": "Hej, jag är ny här",
+      "tip_artist": null,
+      "tip_song": null,
+      "artist_key": null,
+      "community_slug": "swedish-underground",
+      "source": "community",
+      "replies": [],
+      "created_at": "2026-05-18T17:35:10Z",
+      "id": "post-2026-05-18T17:35:10Z-du"
+    },
+    {
+      "username": "du",
+      "text": "Det här ska jag använda till nästa träff med grabbarna",
+      "tip_artist": null,
+      "tip_song": null,
+      "artist_key": null,
+      "community_slug": "bedroom-pop",
+      "replies": [
+        {
+          "username": "du",
+          "text": "med mig:)",
+          "created_at": "2026-05-18T16:10:54Z",
+          "id": "reply-2026-05-18T16:10:54Z-du"
+        },
+        {
+          "username": "du",
+          "text": "nej med mig",
+          "created_at": "2026-05-18T16:11:18Z",
+          "id": "reply-2026-05-18T16:11:18Z-du"
+        },
+        {
+          "username": "du",
+          "text": "alla oss kanske",
+          "created_at": "2026-05-18T16:11:36Z",
+          "id": "reply-2026-05-18T16:11:36Z-du"
+        },
+        {
+          "username": "du",
+          "text": "jag med snälla",
+          "created_at": "2026-05-18T16:28:19Z",
+          "id": "reply-2026-05-18T16:28:19Z-du"
+        }
+      ],
+      "created_at": "2026-05-18T16:09:34Z",
+      "id": "post-2026-05-18T16:09:34Z-du"
+    },
+    {
+      "username": "du",
+      "text": "Delade en ny mindre artist till community-flodet.",
+      "tip_artist": "AKOVI",
+      "tip_song": "PERFECT MATCH",
+      "artist_key": "akovi",
+      "community_slug": null,
+      "created_at": "2026-05-18T14:39:42Z",
+      "id": "post-2026-05-18T14:39:42Z-du",
+      "replies": [
+        {
+          "username": "du",
+          "text": "jag gillar denna",
+          "created_at": "2026-05-18T16:11:57Z",
+          "id": "reply-2026-05-18T16:11:57Z-du"
+        },
+        {
+          "username": "du",
+          "text": "Denna var bra",
+          "created_at": "2026-05-18T16:33:07Z",
+          "id": "reply-2026-05-18T16:33:07Z-du"
+        },
+        {
+          "username": "du",
+          "text": "Denna var grym",
+          "created_at": "2026-05-18T18:02:27Z",
+          "id": "reply-2026-05-18T18:02:27Z-du"
+        }
+      ]
+    },
+    {
+      "username": "du",
+      "text": "äR detta bra",
+      "tip_artist": null,
+      "tip_song": null,
+      "artist_key": null,
+      "community_slug": "swedish-underground",
+      "replies": [],
+      "created_at": "2026-05-18T14:35:21Z",
+      "id": "post-2026-05-18T14:35:21Z-du"
+    },
+    {
+      "username": "du",
+      "text": "Delade en ny mindre artist till community-flodet.",
+      "tip_artist": "AKOVI",
+      "tip_song": "1 APRIL",
+      "artist_key": "akovi",
+      "community_slug": "swedish-underground",
+      "created_at": "2026-05-18T14:27:08Z",
+      "id": "post-2026-05-18T14:27:08Z-du",
+      "replies": [
+        {
+          "username": "du",
+          "text": "Detta var banger",
+          "created_at": "2026-05-18T16:04:14Z",
+          "id": "reply-2026-05-18T16:04:14Z-du"
+        },
+        {
+          "username": "du",
+          "text": "10/10",
+          "created_at": "2026-05-18T16:12:26Z",
+          "id": "reply-2026-05-18T16:12:26Z-du"
+        }
+      ]
+    },
+    {
+      "username": "du",
+      "text": "Delade en ny mindre artist till community-flodet.",
+      "tip_artist": "Timbuktu",
+      "tip_song": "Strö lite socker på mig",
+      "artist_key": "timbuktu",
+      "created_at": "2026-05-18T12:28:10Z",
+      "id": "post-2026-05-18T12:28:10Z-du",
+      "replies": [
+        {
+          "username": "du",
+          "text": "Älskade denna också, ska vi bli tillsammans?",
+          "created_at": "2026-05-18T14:25:55Z",
+          "id": "reply-2026-05-18T14:25:55Z-du"
+        },
+        {
+          "username": "du",
+          "text": "sexigt",
+          "created_at": "2026-05-18T14:31:41Z",
+          "id": "reply-2026-05-18T14:31:41Z-du"
+        }
+      ]
+    },
+    {
+      "username": "du",
+      "text": "Delade en ny mindre artist till community-flodet.",
+      "tip_artist": "Olivia Lobato",
+      "tip_song": "Syrener",
+      "artist_key": "olivia lobato",
+      "created_at": "2026-05-18T12:25:02Z",
+      "id": "post-2026-05-18T12:25:02Z-du",
+      "replies": []
+    },
+    {
+      "username": "du",
+      "text": "min pojkvän är bättre än din?",
+      "tip_artist": null,
+      "tip_song": null,
+      "artist_key": null,
+      "created_at": "2026-05-13T22:03:55Z",
+      "id": "post-2026-05-13T22:03:55Z-du",
+      "replies": []
+    },
+    {
+      "username": "du",
+      "text": "lyssna på mig snälla",
+      "tip_artist": null,
+      "tip_song": null,
+      "artist_key": null,
+      "created_at": "2026-05-06T11:41:19Z",
+      "id": "post-2026-05-06T11:41:19Z-du",
+      "replies": []
+    },
+    {
+      "id": "seed-1",
+      "username": "musikalskare92",
+      "text": "Lyssnade precis pa detta mastarverk!",
+      "tip_artist": "Bon Iver",
+      "tip_song": "Holocene",
+      "created_at": "2026-04-28T09:17:00Z",
+      "replies": []
+    },
+    {
+      "id": "seed-2",
+      "username": "vibes_only",
+      "text": "Har nagon fler tips i samma stil?",
+      "tip_artist": "James Blake",
+      "tip_song": "Retrograde",
+      "created_at": "2026-04-28T07:58:00Z",
+      "replies": []
+    },
+    {
+      "id": "seed-3",
+      "username": "slow.days",
+      "text": "Den har var perfekt under kvallens promenad.",
+      "tip_artist": "Daughter",
+      "tip_song": "Youth",
+      "created_at": "2026-04-27T20:24:00Z",
+      "replies": []
+    }
+  ],
+  "custom_communities": []
+}
