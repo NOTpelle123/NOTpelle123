@@ -1,0 +1,5 @@
+k,sample_size_fit,sample_size_eval,silhouette_score,davies_bouldin_index,inertia,non_empty_clusters,largest_cluster_share
+5,5000,900,0.1369,1.8542,23404.54,5,0.2567
+8,5000,900,0.1372,1.7599,19655.25,8,0.1556
+12,5000,900,0.1249,1.7241,17547.35,12,0.1156
+14,5000,900,0.1115,1.8261,16889.46,14,0.1011

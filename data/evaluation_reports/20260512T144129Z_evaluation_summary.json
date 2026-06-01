@@ -1,0 +1,187 @@
+{
+  "generated_at": "20260512T144129Z",
+  "benchmark_file": "C:\\Users\\pelle\\Documents\\Codex\\2026-04-28\\files-mentioned-by-the-user-namnl\\smallweb-smaller-artists-app\\data\\evaluation_prompts.json",
+  "dataset": {
+    "rows": 89386,
+    "unique_genres": 113,
+    "discover_label_count": 8,
+    "discover_dataset_genre_coverage": 0.2301
+  },
+  "state": {
+    "saved_artists": 3,
+    "custom_tracks": 2,
+    "legacy_like_custom_items": 1
+  },
+  "evaluation_setup": {
+    "top_k": 5,
+    "repeat_runs": 3,
+    "prompt_count": 26,
+    "cluster_ks": [
+      5,
+      8,
+      12,
+      14
+    ],
+    "uses_existing_pipeline": true,
+    "uses_temporary_state_copy": true,
+    "uses_offline_ranking_stage": true
+  },
+  "nlp": {
+    "genre_accuracy": 0.9615,
+    "genre_recall": 0.9615,
+    "prompt_intent_accuracy": 1.0,
+    "failed_prompt_examples": [
+      {
+        "prompt": "mörk svensk indie",
+        "predicted_genres": [
+          "Indie",
+          "Electronic"
+        ],
+        "expected_genre_labels": [
+          "Indie"
+        ],
+        "prompt_intent_accuracy": 1.0,
+        "precision_at_5": 0.0,
+        "top_result_genres": [
+          "ambient",
+          "ambient",
+          "electronic",
+          "ambient",
+          "ambient"
+        ]
+      },
+      {
+        "prompt": "metal",
+        "predicted_genres": [
+          "Rock"
+        ],
+        "expected_genre_labels": [
+          "Rock"
+        ],
+        "prompt_intent_accuracy": 1.0,
+        "precision_at_5": 0.2,
+        "top_result_genres": [
+          "alt-rock",
+          "rock",
+          "rock",
+          "alt-rock",
+          "alt-rock"
+        ]
+      },
+      {
+        "prompt": "lugn nattmusik",
+        "predicted_genres": [
+          "Electronic",
+          "Indie"
+        ],
+        "expected_genre_labels": [],
+        "prompt_intent_accuracy": 1.0,
+        "precision_at_5": 0.6,
+        "top_result_genres": [
+          "electronic",
+          "ambient",
+          "ambient",
+          "alternative",
+          "alternative"
+        ]
+      },
+      {
+        "prompt": "calm morning music",
+        "predicted_genres": [
+          "Electronic"
+        ],
+        "expected_genre_labels": [
+          "Jazz",
+          "Classical",
+          "Indie"
+        ],
+        "prompt_intent_accuracy": 1.0,
+        "precision_at_5": 1.0,
+        "top_result_genres": [
+          "ambient",
+          "ambient",
+          "ambient",
+          "ambient",
+          "ambient"
+        ]
+      },
+      {
+        "prompt": "indie",
+        "predicted_genres": [
+          "Indie"
+        ],
+        "expected_genre_labels": [
+          "Indie"
+        ],
+        "prompt_intent_accuracy": 1.0,
+        "precision_at_5": 1.0,
+        "top_result_genres": [
+          "indie",
+          "indie-pop",
+          "indie",
+          "indie-pop",
+          "indie-pop"
+        ]
+      }
+    ]
+  },
+  "recommendations": {
+    "precision_at_5": 0.9154,
+    "top_k_genre_match": 0.9,
+    "repeated_query_overlap": 0.0,
+    "recommendation_diversity": {
+      "genre_diversity": 0.3923,
+      "artist_diversity": 1.0,
+      "cluster_diversity": 0.6385
+    }
+  },
+  "product_goal": {
+    "small_artist_compliance": 1.0,
+    "genre_diversity": 0.3923,
+    "artist_diversity": 1.0
+  },
+  "clustering": {
+    "comparison": [
+      {
+        "k": 5,
+        "sample_size_fit": 5000,
+        "sample_size_eval": 900,
+        "silhouette_score": 0.1369,
+        "davies_bouldin_index": 1.8542,
+        "inertia": 23404.54,
+        "non_empty_clusters": 5,
+        "largest_cluster_share": 0.2567
+      },
+      {
+        "k": 8,
+        "sample_size_fit": 5000,
+        "sample_size_eval": 900,
+        "silhouette_score": 0.1372,
+        "davies_bouldin_index": 1.7599,
+        "inertia": 19655.25,
+        "non_empty_clusters": 8,
+        "largest_cluster_share": 0.1556
+      },
+      {
+        "k": 12,
+        "sample_size_fit": 5000,
+        "sample_size_eval": 900,
+        "silhouette_score": 0.1249,
+        "davies_bouldin_index": 1.7241,
+        "inertia": 17547.35,
+        "non_empty_clusters": 12,
+        "largest_cluster_share": 0.1156
+      },
+      {
+        "k": 14,
+        "sample_size_fit": 5000,
+        "sample_size_eval": 900,
+        "silhouette_score": 0.1115,
+        "davies_bouldin_index": 1.8261,
+        "inertia": 16889.46,
+        "non_empty_clusters": 14,
+        "largest_cluster_share": 0.1011
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "prompt": "regnig kväll",
+    "expected_genre_labels": ["Indie", "Electronic"],
+    "expected_intents": ["regn", "kvall"],
+    "acceptable_dataset_genres": ["indie", "alternative", "ambient", "acoustic", "chill", "trip-hop"],
+    "notes": "Broad rainy evening discovery prompt."
+  },
+  {
+    "prompt": "mörk svensk indie",
+    "expected_genre_labels": ["Indie"],
+    "expected_intents": ["mork", "svensk", "indie"],
+    "acceptable_dataset_genres": ["indie", "alternative", "swedish", "songwriter"],
+    "notes": "Tests scene and language intent, not only mood."
+  },
+  {
+    "prompt": "nostalgisk sommarkväll",
+    "expected_genre_labels": ["Pop", "Indie"],
+    "expected_intents": ["nostalgisk", "sommar", "kvall"],
+    "acceptable_dataset_genres": ["pop", "indie-pop", "songwriter", "acoustic", "rock"],
+    "notes": "Abstract seasonal prompt with broad acceptable genres."
+  },
+  {
+    "prompt": "sad underground rap",
+    "expected_genre_labels": ["Hip-Hop"],
+    "expected_intents": ["sad", "underground", "rap"],
+    "acceptable_dataset_genres": ["hip-hop", "rap", "trip-hop"],
+    "notes": "Prompt where genre should matter more than exact numeric mood."
+  },
+  {
+    "prompt": "rainy indie",
+    "expected_genre_labels": ["Indie"],
+    "expected_intents": ["rainy", "indie"],
+    "acceptable_dataset_genres": ["indie", "indie-pop", "alternative", "acoustic"],
+    "notes": "Phrase already partially supported by the current prompt logic."
+  },
+  {
+    "prompt": "night drive",
+    "expected_genre_labels": ["Electronic", "Rock"],
+    "expected_intents": ["night", "drive"],
+    "acceptable_dataset_genres": ["electronic", "ambient", "house", "rock", "synth-pop"],
+    "notes": "Phrase already partially supported by the current prompt logic."
+  },
+  {
+    "prompt": "calm morning music",
+    "expected_genre_labels": ["Jazz", "Classical", "Indie"],
+    "expected_intents": ["calm", "morning"],
+    "acceptable_dataset_genres": ["acoustic", "classical", "ambient", "jazz", "songwriter"],
+    "notes": "Broad calm prompt where exact mood values are less important than intent."
+  },
+  {
+    "prompt": "festmusik",
+    "expected_genre_labels": ["Pop", "Electronic"],
+    "expected_intents": ["fest"],
+    "acceptable_dataset_genres": ["party", "dance", "house", "electronic", "disco", "pop"],
+    "notes": "Simple party prompt for high-energy discovery."
+  },
+  {
+    "prompt": "arg hiphop",
+    "expected_genre_labels": ["Hip-Hop"],
+    "expected_intents": ["arg", "hiphop"],
+    "acceptable_dataset_genres": ["hip-hop", "rap"],
+    "notes": "Genre-led prompt with explicit affect."
+  },
+  {
+    "prompt": "svensk pop",
+    "expected_genre_labels": ["Pop"],
+    "expected_intents": ["svensk", "pop"],
+    "acceptable_dataset_genres": ["swedish", "pop", "indie-pop"],
+    "notes": "Language and genre prompt."
+  },
+  {
+    "prompt": "lofi plugg",
+    "expected_genre_labels": ["Electronic"],
+    "expected_intents": ["lofi", "plugg"],
+    "acceptable_dataset_genres": ["ambient", "electronic", "chill", "acoustic"],
+    "notes": "Study prompt where the dataset may lack direct lo-fi labels."
+  },
+  {
+    "prompt": "jazz för sen kväll",
+    "expected_genre_labels": ["Jazz"],
+    "expected_intents": ["jazz", "kvall"],
+    "acceptable_dataset_genres": ["jazz", "blues", "soul"],
+    "notes": "Genre-first Swedish prompt with time-of-day intent."
+  }
+]
